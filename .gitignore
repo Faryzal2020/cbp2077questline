@@ -1,0 +1,10 @@
+# Raw game extraction & tool caches
+extracted_raw/
+.wkit/
+__pycache__/
+*.pyc
+.venv/
+
+# Node / frontend build outputs (for later phases)
+node_modules/
+dist/

@@ -1,0 +1,5318 @@
+{
+  "M01": {
+    "id": "M01",
+    "journalId": "q000_nomad",
+    "type": "M",
+    "title": "The Nomad",
+    "giver": "Jackie Welles",
+    "rewards": [],
+    "reqText": "Start `[!]`",
+    "unlocksRaw": "M04",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M02": {
+    "id": "M02",
+    "journalId": "q000_street_kid",
+    "type": "M",
+    "title": "The Streetkid",
+    "giver": "Jackie Welles",
+    "rewards": [],
+    "reqText": "Start `[!]`",
+    "unlocksRaw": "M04",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M03": {
+    "id": "M03",
+    "journalId": "q000_corpo",
+    "type": "M",
+    "title": "The Corpo-Rat",
+    "giver": "Jackie Welles",
+    "rewards": [],
+    "reqText": "Start `[!]`",
+    "unlocksRaw": "M04",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M04": {
+    "id": "M04",
+    "journalId": "q000_tutorial",
+    "type": "M",
+    "title": "Practice Makes Perfect",
+    "giver": "T-Bug",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M05",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M05": {
+    "id": "M05",
+    "journalId": "q001_intro",
+    "type": "M",
+    "title": "The Rescue",
+    "giver": "Jackie Welles",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M06, S01–S05, G01–G23, N01–N13",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M06": {
+    "id": "M06",
+    "journalId": "q001_01_victor",
+    "type": "M",
+    "title": "The Ripperdoc",
+    "giver": "Viktor Vektor",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M07, S06, S07, S08",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M07": {
+    "id": "M07",
+    "journalId": "q001_02_dex",
+    "type": "M",
+    "title": "The Ride",
+    "giver": "Dexter DeShawn",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M08, M09, S09, S10, S11",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M08": {
+    "id": "M08",
+    "journalId": "q003_maelstrom",
+    "type": "M",
+    "title": "The Pickup",
+    "giver": "Jackie Welles",
+    "rewards": [
+      {
+        "name": "Chaos",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Royce if you fight him; mutually exclusive with Doom Doom (S73)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S12, M10 (`[+]` w/ M09)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M09": {
+    "id": "M09",
+    "journalId": "q004_braindance",
+    "type": "M",
+    "title": "The Information",
+    "giver": "Evelyn Parker",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M10 (`[+]` w/ M08)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M10": {
+    "id": "M10",
+    "journalId": "q005_heist",
+    "type": "M",
+    "title": "The Heist",
+    "giver": "Jackie Welles",
+    "rewards": [
+      {
+        "name": "Iguana Egg",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hollow log next to the iguana in Yorinobu's penthouse; Konpeki Plaza locks permanently."
+      },
+      {
+        "name": "Kongou",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Bedside table next to Yorinobu's bed."
+      },
+      {
+        "name": "Nehan",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Saburo Arasaka's body."
+      },
+      {
+        "name": "Saburo's Dog Tag",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Saburo Arasaka's body."
+      },
+      {
+        "name": "Satori",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Inside Saburo's AV on Konpeki Plaza rooftop helipad."
+      },
+      {
+        "name": "Kotetsu No Ryu Coat",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Yorinobu's penthouse bathroom."
+      },
+      {
+        "name": "Yorinobu's Formal Shirt/Slacks",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase at the top of the penthouse stairs."
+      }
+    ],
+    "reqText": "`[+]` M08 & M09",
+    "unlocksRaw": "M11",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M11": {
+    "id": "M11",
+    "journalId": "q101_01_firestorm",
+    "type": "MI",
+    "title": "Love Like Fire",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M12, M15, G24–G65, S13–S26b, S63–S66, CP07–CP15, N14–N42",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M12": {
+    "id": "M12",
+    "journalId": "q103_warhead",
+    "type": "M",
+    "title": "Ghost Town",
+    "giver": "Anders Hellman",
+    "rewards": [
+      {
+        "name": "Archer Quartz \"Bandit\"",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Free from Rogue if you refuse to help Panam fight Nash (locks out Widow Maker); otherwise purchasable from Dakota via Autofixer."
+      },
+      {
+        "name": "Widow Maker",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Nash in the Raffen Shiv cave; missed if you refuse to help Panam."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M13, S14, S16, S18, S23, S24, G65b–G68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M13": {
+    "id": "M13",
+    "journalId": "q104_01_sabotage",
+    "type": "M",
+    "title": "Lightning Breaks",
+    "giver": "Anders Hellman",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M14 (`[+]` w/ M17)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M14": {
+    "id": "M14",
+    "journalId": "q104_02_av_chase",
+    "type": "M",
+    "title": "Life During Wartime",
+    "giver": "Anders Hellman",
+    "rewards": [
+      {
+        "name": "Brennan Apollo \"Scorpion\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "`[+]` M13 & M17",
+    "unlocksRaw": "M14b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M14b": {
+    "id": "M14b",
+    "journalId": "sq032_tapeworm",
+    "type": "MI",
+    "title": "Tapeworm",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S50, S54, S57, CP16, S69 (`[+]` w/ M20), S70 (`[+]` w/ M20), M30 (`[+]` w/ M20)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M15": {
+    "id": "M15",
+    "journalId": "q101_resurrection",
+    "type": "M",
+    "title": "Playing for Time",
+    "giver": "Goro Takemura",
+    "rewards": [
+      {
+        "name": "Plan B",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Looted from Dexter DeShawn's corpse at the Municipal Landfill (available in free roam right after M15)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M16, M21, S27, S31, S34, S36–S40, CP06, T01–T20",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M16": {
+    "id": "M16",
+    "journalId": "q112_01_old_friend",
+    "type": "M",
+    "title": "Down on the Street",
+    "giver": "Goro Takemura",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M17",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M17": {
+    "id": "M17",
+    "journalId": "q112_02_industrial_park",
+    "type": "M",
+    "title": "Gimme Danger",
+    "giver": "Goro Takemura",
+    "rewards": [
+      {
+        "name": "Prototype Shingen Mark V",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Arasaka Industrial Park container 667 (booby-trapped); accessible in free roam."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M18, M14 (`[+]` w/ M13)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M18": {
+    "id": "M18",
+    "journalId": "q112_03_dashi_parade",
+    "type": "M",
+    "title": "Play It Safe",
+    "giver": "Goro Takemura",
+    "rewards": [
+      {
+        "name": "Genjiroh",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Floor 21 security room (Tech 11 or code 2906); also at North Oak Arasaka Estate."
+      },
+      {
+        "name": "Jinchu-Maru",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Sandayu Oda; arena locks after leaving."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M19",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M19": {
+    "id": "M19",
+    "journalId": "q112_04_hideout",
+    "type": "M",
+    "title": "Search and Destroy",
+    "giver": "Goro Takemura",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M20",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M20": {
+    "id": "M20",
+    "journalId": "sq032_tapeworm",
+    "type": "MI",
+    "title": "Tapeworm",
+    "giver": "Johnny Silverhand",
+    "rewards": [
+      {
+        "name": "Johnny's Tank Top",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Granted automatically at Pistis Sophia hotel."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S69 (`[+]` w/ M14b), S70 (`[+]` w/ M14b), M30 (`[+]` w/ M14b)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M21": {
+    "id": "M21",
+    "journalId": "q105_dollhouse",
+    "type": "M",
+    "title": "Automatic Love",
+    "giver": "Evelyn Parker",
+    "rewards": [
+      {
+        "name": "Cocktail Stick",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Clouds VIP dressing room."
+      },
+      {
+        "name": "Lizzie",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Lizzie's Bar basement (spawns starting in M21)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M22",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M22": {
+    "id": "M22",
+    "journalId": "sq032_tapeworm",
+    "type": "MI",
+    "title": "Tapeworm",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M23",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M23": {
+    "id": "M23",
+    "journalId": "q105_02_jigjig",
+    "type": "M",
+    "title": "The Space in Between",
+    "giver": "Evelyn Parker",
+    "rewards": [
+      {
+        "name": "Cottonmouth",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "On table in Fingers' clinic; locks out if Fingers is attacked/killed."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M24",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M24": {
+    "id": "M24",
+    "journalId": "q105_03_braindance_studio",
+    "type": "M",
+    "title": "Disasterpiece",
+    "giver": "Evelyn Parker",
+    "rewards": [
+      {
+        "name": "Errata",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Inside furnace in Electric Corporation sub-level; accessible in free roam."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M25",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M25": {
+    "id": "M25",
+    "journalId": "q105_04_judys",
+    "type": "M",
+    "title": "Double Life",
+    "giver": "Evelyn Parker",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M26, S81, S87, S88",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M26": {
+    "id": "M26",
+    "journalId": "q110_01_voodooboys",
+    "type": "M",
+    "title": "M'ap Tann Pèlen",
+    "giver": "Alt Cunningham",
+    "rewards": [
+      {
+        "name": "Butcher's Cleaver",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Counter in Placide's butcher shop back room."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M27",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M27": {
+    "id": "M27",
+    "journalId": "q110_voodoo",
+    "type": "M",
+    "title": "I Walk the Line",
+    "giver": "Alt Cunningham",
+    "rewards": [
+      {
+        "name": "Sasquatch's Hammer",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Sasquatch in GIM arena."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M28",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M28": {
+    "id": "M28",
+    "journalId": "q110_03_cyberspace",
+    "type": "M",
+    "title": "Transmission",
+    "giver": "Alt Cunningham",
+    "rewards": [
+      {
+        "name": "Timeworn Trench Coat",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Placide if you side against the Voodoo Boys and kill him."
+      }
+    ],
+    "reqText": "(during: MI01)",
+    "unlocksRaw": "M29",
+    "ponr": false,
+    "repeatable": false,
+    "during": "MI01"
+  },
+  "MI01": {
+    "id": "MI01",
+    "journalId": "q108_johnny",
+    "type": "MI",
+    "title": "Never Fade Away",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "Takes place during M28",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M29": {
+    "id": "M29",
+    "journalId": "sq032_tapeworm",
+    "type": "MI",
+    "title": "Tapeworm",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL01, S85, S86, CP17, M30 (`[+]` w/ M14b & M20)",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M30": {
+    "id": "M30",
+    "journalId": "02_sickness",
+    "type": "M",
+    "title": "Nocturne Op55N1",
+    "giver": "Hanako Arasaka",
+    "rewards": [],
+    "reqText": "PONR; `[+]` M14b/M20/M29",
+    "unlocksRaw": "`[!]` M31, M34, M38, M40, E02",
+    "ponr": true,
+    "repeatable": false,
+    "during": null
+  },
+  "M31": {
+    "id": "M31",
+    "journalId": "q113_rescuing_hanako",
+    "type": "M",
+    "title": "Last Caress",
+    "giver": "Hanako Arasaka",
+    "rewards": [
+      {
+        "name": "Genjiroh",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "North Oak Arasaka Estate security office (if missed in M18)."
+      }
+    ],
+    "reqText": "From M30 `[!]`",
+    "unlocksRaw": "M32",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M32": {
+    "id": "M32",
+    "journalId": "q113_corpo",
+    "type": "M",
+    "title": "Totalimmortal",
+    "giver": "Hanako Arasaka",
+    "rewards": [
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher; unlocks Ba Xing Chong spec on the Ebunike."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M33",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M33": {
+    "id": "M33",
+    "journalId": "q201_heir",
+    "type": "M",
+    "title": "Where Is My Mind?",
+    "giver": "Hanako Arasaka",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "E01",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E01": {
+    "id": "E01",
+    "journalId": null,
+    "type": "E",
+    "title": "The Devil",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M34": {
+    "id": "M34",
+    "journalId": "q114_01_nomad_initiation",
+    "type": "M",
+    "title": "We Gotta Live Together",
+    "giver": "Panam Palmer",
+    "rewards": [
+      {
+        "name": "Amnesty",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Win Cassidy's shooting challenge at Aldecaldos camp."
+      },
+      {
+        "name": "Aldecaldos Rally Bolero Jacket",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req S59; from M30 `[!]`",
+    "unlocksRaw": "M35",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M35": {
+    "id": "M35",
+    "journalId": "q114_02_maglev_line_assault",
+    "type": "M",
+    "title": "Forward to Death",
+    "giver": "Panam Palmer",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M36",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M36": {
+    "id": "M36",
+    "journalId": "q114_03_attack_on_arasaka_tower",
+    "type": "M",
+    "title": "Belly of the Beast",
+    "giver": "Panam Palmer",
+    "rewards": [
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M37",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M37": {
+    "id": "M37",
+    "journalId": "q116_cyberspace",
+    "type": "M",
+    "title": "Changes",
+    "giver": "Alt Cunningham",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "`[+]` M41, M42, M43",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M38": {
+    "id": "M38",
+    "journalId": "q115_afterlife",
+    "type": "M",
+    "title": "For Whom the Bell Tolls",
+    "giver": "Rogue Amendiares",
+    "rewards": [
+      {
+        "name": "Prejudice",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Picked up in the Afterlife while gearing up with Rogue."
+      }
+    ],
+    "reqText": "Req S72; from M30 `[!]`",
+    "unlocksRaw": "M39",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M39": {
+    "id": "M39",
+    "journalId": "q115_rogues_last_flight",
+    "type": "M",
+    "title": "Knockin' on Heaven's Door",
+    "giver": "Rogue Amendiares",
+    "rewards": [
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      },
+      {
+        "name": "Caretaker's Spade",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Arasaka Tower indoor jungle/garden."
+      },
+      {
+        "name": "Pride",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Dropped near entrance gate after defeating Adam Smasher."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "M37",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M40": {
+    "id": "M40",
+    "journalId": "09_solo",
+    "type": "M",
+    "title": "(Don't Fear) The Reaper",
+    "giver": "Johnny Silverhand",
+    "rewards": [
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      }
+    ],
+    "reqText": "Req S72 & choices in S69; from M30 `[!]`",
+    "unlocksRaw": "M37",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E02": {
+    "id": "E02",
+    "journalId": null,
+    "type": "E",
+    "title": "Path of Least Resistance",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending; from M30 `[!]`",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M41": {
+    "id": "M41",
+    "journalId": "q202_nomads",
+    "type": "M",
+    "title": "All Along the Watchtower",
+    "giver": "Panam Palmer",
+    "rewards": [],
+    "reqText": "Req M34",
+    "unlocksRaw": "E03",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E03": {
+    "id": "E03",
+    "journalId": null,
+    "type": "E",
+    "title": "The Star",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M42": {
+    "id": "M42",
+    "journalId": "q204_reborn",
+    "type": "M",
+    "title": "New Dawn Fades",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "E04",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E04": {
+    "id": "E04",
+    "journalId": null,
+    "type": "E",
+    "title": "Temperance",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "M43": {
+    "id": "M43",
+    "journalId": "q203_legend",
+    "type": "M",
+    "title": "Path of Glory",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "Req M38 or M40",
+    "unlocksRaw": "E05",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E05": {
+    "id": "E05",
+    "journalId": null,
+    "type": "E",
+    "title": "The Sun",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL01": {
+    "id": "PL01",
+    "journalId": "q301_crash",
+    "type": "PL",
+    "title": "Dog Eat Dog",
+    "giver": "Songbird",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL02",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL02": {
+    "id": "PL02",
+    "journalId": "q301_finding_myers",
+    "type": "PL",
+    "title": "Hole in the Sky",
+    "giver": "Songbird",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL03",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL03": {
+    "id": "PL03",
+    "journalId": "q301_q302_rescue_myers",
+    "type": "PL",
+    "title": "Spider and the Fly",
+    "giver": "Songbird",
+    "rewards": [
+      {
+        "name": "Chimera Core",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Looted in Chimera boss arena before leaving; crafts 1 of 4 Iconic weapon mods."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL04, G69, G70, G74, G75, S98, S98b, S99, IC01–IC03, T21–T24",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL04": {
+    "id": "PL04",
+    "journalId": "q302_reed",
+    "type": "PL",
+    "title": "Lucretia My Reflection",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "Hawk",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Table in Kress Street safehouse after Myers sleeps."
+      },
+      {
+        "name": "Makigai Tanishi T400",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Gifted by Mr. Hands after Dogtown opens up."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL05",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL05": {
+    "id": "PL05",
+    "journalId": "q303_baron",
+    "type": "PL",
+    "title": "The Damned",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "Gris-Gris",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Slider's hideout storage room (requires keycard from G70)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL06",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL06": {
+    "id": "PL06",
+    "journalId": "q303_hands",
+    "type": "PL",
+    "title": "Get It Together",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "Her Majesty",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Weapon case in Alex's safehouse/bar."
+      }
+    ],
+    "reqText": "Req 3 Mr. Hands Gigs",
+    "unlocksRaw": "PL07, S93, S94",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL07": {
+    "id": "PL07",
+    "journalId": "q303_songbird",
+    "type": "PL",
+    "title": "You Know My Name",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "Rasetsu",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Sniper nest during Black Sapphire sequence."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL08",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL08": {
+    "id": "PL08",
+    "journalId": "q304_stadium",
+    "type": "PL",
+    "title": "Birds With Broken Wings",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "NDI Osprey",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Weapon case inside Alex's safehouse armory."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL09",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL09": {
+    "id": "PL09",
+    "journalId": "q304_netrunners",
+    "type": "PL",
+    "title": "I've Seen That Face Before",
+    "giver": "Solomon Reed",
+    "rewards": [
+      {
+        "name": "Behavioral Imprint-synced Faceplate",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Installed by Farida Nazeri."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL10, S101",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL10": {
+    "id": "PL10",
+    "journalId": "q304_deal",
+    "type": "PL",
+    "title": "Firestarter",
+    "giver": "Alex",
+    "rewards": [
+      {
+        "name": "Bald Eagle",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Wild Dog",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Fang",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Murphy's Law",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Murphy (Songbird path)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "`[!]` PL11, G76, S104, PL15, S106",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL11": {
+    "id": "PL11",
+    "journalId": "q305_prison_convoy",
+    "type": "PL",
+    "title": "Black Steel in the Hour of Chaos",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "From PL10 `[!]`",
+    "unlocksRaw": "PL12",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL12": {
+    "id": "PL12",
+    "journalId": "q305_bunker",
+    "type": "PL",
+    "title": "Somewhat Damaged",
+    "giver": "Songbird",
+    "rewards": [
+      {
+        "name": "Crowbar",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Inside Cynosure facility."
+      },
+      {
+        "name": "Erebus (Crafting Spec)",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Militech Canto Mk.6)."
+      },
+      {
+        "name": "Militech Canto Mk.6 (Crafting Spec)",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Erebus)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "PL13, S103",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL13": {
+    "id": "PL13",
+    "journalId": "q305_border_crossing",
+    "type": "PL",
+    "title": "Leave in Silence",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "`[!]` PLE01, PLE02",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PLE01": {
+    "id": "PLE01",
+    "journalId": null,
+    "type": "PLE",
+    "title": "King of Cups",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "PL Ending; req choices in PL12",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PLE02": {
+    "id": "PLE02",
+    "journalId": null,
+    "type": "PLE",
+    "title": "King of Pentacles",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "PL Ending; req choices in PL12",
+    "unlocksRaw": "PL14",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL14": {
+    "id": "PL14",
+    "journalId": "q305_reed_epilogue",
+    "type": "PL",
+    "title": "Four Score and Seven",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL18",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL15": {
+    "id": "PL15",
+    "journalId": "q306_devils_bargain",
+    "type": "PL",
+    "title": "The Killing Moon",
+    "giver": "Songbird",
+    "rewards": [
+      {
+        "name": "Pariah",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Solomon Reed if killed at the spaceport (not sold at Black Market)."
+      }
+    ],
+    "reqText": "From PL10 `[!]`",
+    "unlocksRaw": "`[!]` PLE03, PLE04",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PLE03": {
+    "id": "PLE03",
+    "journalId": null,
+    "type": "PLE",
+    "title": "King of Swords",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "PL Ending",
+    "unlocksRaw": "PL16",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL16": {
+    "id": "PL16",
+    "journalId": "q306_reed_epilogue",
+    "type": "PL",
+    "title": "Through Pain to Heaven",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL18",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PLE04": {
+    "id": "PLE04",
+    "journalId": null,
+    "type": "PLE",
+    "title": "King of Wands",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "PL Ending",
+    "unlocksRaw": "PL17",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL17": {
+    "id": "PL17",
+    "journalId": "q306_somi_epilogue",
+    "type": "PL",
+    "title": "Unfinished Sympathy",
+    "giver": "Alex",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "PL19",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL18": {
+    "id": "PL18",
+    "journalId": "q307_before_tomorrow",
+    "type": "PL",
+    "title": "Who Wants to Live Forever",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "PONR; req PLE02 or PLE03",
+    "unlocksRaw": "PL20",
+    "ponr": true,
+    "repeatable": false,
+    "during": null
+  },
+  "PL19": {
+    "id": "PL19",
+    "journalId": "q306_postcontent",
+    "type": "PL",
+    "title": "From Her to Eternity",
+    "giver": "Songbird",
+    "rewards": [
+      {
+        "name": "Quantum Tuner",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "From Songbird's cache at Tranquil Terrace (requires PLE04 King of Wands)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "PL20": {
+    "id": "PL20",
+    "journalId": "q307_tomorrow",
+    "type": "PL",
+    "title": "Things Done Changed",
+    "giver": "Solomon Reed",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "E06",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "E06": {
+    "id": "E06",
+    "journalId": null,
+    "type": "E",
+    "title": "The Tower",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Base Ending (via PL)",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S01": {
+    "id": "S01",
+    "journalId": "mq050_ken_block_tribute",
+    "type": "S",
+    "title": "I'm in Love With My Car",
+    "giver": "(Northside)",
+    "rewards": [
+      {
+        "name": "Quadra Type-66 \"Hoon\"",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Keys in nearby box inside Northside warehouse."
+      }
+    ],
+    "reqText": "Req 20 Street Cred",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S02": {
+    "id": "S02",
+    "journalId": "mq026_conspiracy",
+    "type": "S",
+    "title": "The Prophet's Song",
+    "giver": "Garry The Prophet",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S03": {
+    "id": "S03",
+    "journalId": "sq_q001_tbug",
+    "type": "S",
+    "title": "The Gift",
+    "giver": "T-Bug",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S04": {
+    "id": "S04",
+    "journalId": "sq_q001_wilson",
+    "type": "S",
+    "title": "The Gun",
+    "giver": "Robert Wilson",
+    "rewards": [
+      {
+        "name": "Dying Night",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S05": {
+    "id": "S05",
+    "journalId": "mq025_02_kabuki",
+    "type": "S",
+    "title": "Beat on the Brat: Kabuki",
+    "giver": "Coach Fred",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S06": {
+    "id": "S06",
+    "journalId": "mq045_victor_debt",
+    "type": "S",
+    "title": "Paid in Full",
+    "giver": "Viktor Vektor",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S07": {
+    "id": "S07",
+    "journalId": "mq048_cyberware",
+    "type": "S",
+    "title": "Upgrade U",
+    "giver": "Viktor Vektor",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S08": {
+    "id": "S08",
+    "journalId": "mq043_cyberpsychos",
+    "type": "S",
+    "title": "Psycho Killer",
+    "giver": "Regina Jones",
+    "rewards": [
+      {
+        "name": "Trauma Team Armor-Weave Tactical Vest",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally."
+      },
+      {
+        "name": "Decadencia Vede Tactical Armor-Weave Pants",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "CP01–CP05",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S09": {
+    "id": "S09",
+    "journalId": "mq012_stud",
+    "type": "S",
+    "title": "Burning Desire / Night Moves",
+    "giver": "Jesse Johnson",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S10": {
+    "id": "S10",
+    "journalId": "mq029_tourist",
+    "type": "S",
+    "title": "The Highwayman",
+    "giver": "(Rancho Coronado)",
+    "rewards": [
+      {
+        "name": "Arch Nazaré \"Itsumade\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S11": {
+    "id": "S11",
+    "journalId": "mq032_sacrum",
+    "type": "S",
+    "title": "Losing My Religion / Sacrum Profanum",
+    "giver": "Bhikkhu",
+    "rewards": [
+      {
+        "name": "Fenrir",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S12": {
+    "id": "S12",
+    "journalId": "q003_stout",
+    "type": "S",
+    "title": "Venus in Furs",
+    "giver": "Meredith Stout",
+    "rewards": [
+      {
+        "name": "Sir John Phallustiff",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "On bed in No-Tell Motel; requires siding with Meredith Stout in M08."
+      }
+    ],
+    "reqText": "Req choices in M08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S13": {
+    "id": "S13",
+    "journalId": "mq005_alley",
+    "type": "S",
+    "title": "Only Pain",
+    "giver": "(Vista Del Rey)",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S14": {
+    "id": "S14",
+    "journalId": "mq046_cave_vehicle",
+    "type": "S",
+    "title": "Murk Man Returns Again Once More Forever",
+    "giver": "(Rocky Ridge)",
+    "rewards": [
+      {
+        "name": "Rayfield Caliburn",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Shipping container in Badlands tunnel after M12 & 40 Street Cred."
+      }
+    ],
+    "reqText": "Req 40 Street Cred",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S15": {
+    "id": "S15",
+    "journalId": "mq040_biosculpt",
+    "type": "S",
+    "title": "Raymond Chandler Evening",
+    "giver": "Pepe Najarro",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S16": {
+    "id": "S16",
+    "journalId": "mq042_nomad",
+    "type": "S",
+    "title": "These Boots Are Made for Walkin'",
+    "giver": "(Red Peaks)",
+    "rewards": [
+      {
+        "name": "Galena GA40XT \"Rattler\"",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Nomad lifepath exclusive."
+      }
+    ],
+    "reqText": "Req M01",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S17": {
+    "id": "S17",
+    "journalId": "mq030_melisa",
+    "type": "S",
+    "title": "Bullets",
+    "giver": "Melissa Rory",
+    "rewards": [
+      {
+        "name": "MaxTac Mantis Blades",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Defeat and loot Melissa Rory at Jinguji before she despawns (alt source in PL Reed path)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S18": {
+    "id": "S18",
+    "journalId": "mq015_wizardbook",
+    "type": "S",
+    "title": "Spellbound",
+    "giver": "Nix",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S19",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S19": {
+    "id": "S19",
+    "journalId": "mq016_bartmoss",
+    "type": "S",
+    "title": "Kold Mirage",
+    "giver": "Nix",
+    "rewards": [
+      {
+        "name": "Plan B",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Looted from Dexter DeShawn's corpse next to Bartmoss's freezer."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S20": {
+    "id": "S20",
+    "journalId": "mq007_smartgun",
+    "type": "S",
+    "title": "Machine Gun",
+    "giver": "Regina Jones",
+    "rewards": [
+      {
+        "name": "Skippy",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Vista del Rey alley; permanently lost if returned to Regina."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S21": {
+    "id": "S21",
+    "journalId": "mq008_party",
+    "type": "S",
+    "title": "Stadium Love",
+    "giver": "(Rancho Coronado)",
+    "rewards": [
+      {
+        "name": "Divided We Stand",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S22": {
+    "id": "S22",
+    "journalId": "mq049_edgerunners",
+    "type": "S",
+    "title": "Over the Edge",
+    "giver": "(Arroyo)",
+    "rewards": [
+      {
+        "name": "David's Jacket",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Falco's stash at Dam Viewpoint."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S23": {
+    "id": "S23",
+    "journalId": "mq003_orbitals",
+    "type": "S",
+    "title": "Space Oddity",
+    "giver": "(Rancho Coronado)",
+    "rewards": [
+      {
+        "name": "Untitled 18 - Brancesi",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "2021",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S24": {
+    "id": "S24",
+    "journalId": "mq013_punks",
+    "type": "S",
+    "title": "A Day in the Life",
+    "giver": "Darrell Zhou",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S25": {
+    "id": "S25",
+    "journalId": "mq047_ad_vehicle",
+    "type": "S",
+    "title": "Dressed to Kill",
+    "giver": "(Rocky Ridge)",
+    "rewards": [
+      {
+        "name": "Thorton Colby CX410 Butte",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S26": {
+    "id": "S26",
+    "journalId": "sq_q001_wakako",
+    "type": "S",
+    "title": "The Gig",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S26b": {
+    "id": "S26b",
+    "journalId": "mq038_neweridentity",
+    "type": "S",
+    "title": "Big in Japan",
+    "giver": "Dennis Cranmer",
+    "rewards": [
+      {
+        "name": "Scalpel",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S27": {
+    "id": "S27",
+    "journalId": "mq014_zen",
+    "type": "S",
+    "title": "Imagine",
+    "giver": "Zen Master",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S28",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S28": {
+    "id": "S28",
+    "journalId": "mq014_02_second",
+    "type": "S",
+    "title": "Stairway to Heaven",
+    "giver": "Zen Master",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S29",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S29": {
+    "id": "S29",
+    "journalId": "mq014_03_third",
+    "type": "S",
+    "title": "Poem of the Atoms",
+    "giver": "Zen Master",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S30",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S30": {
+    "id": "S30",
+    "journalId": "mq014_04_fourth",
+    "type": "S",
+    "title": "Meetings Along the Edge",
+    "giver": "Zen Master",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S31": {
+    "id": "S31",
+    "journalId": "mq037_brendan_dumpster",
+    "type": "S",
+    "title": "I Can See Clearly Now",
+    "giver": "Brendan",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S32",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S32": {
+    "id": "S32",
+    "journalId": "mq037_brendan_hooligan001",
+    "type": "S",
+    "title": "Spray Paint",
+    "giver": "Brendan",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S33",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S33": {
+    "id": "S33",
+    "journalId": "mq037_brendan",
+    "type": "S",
+    "title": "Coin Operated Boy",
+    "giver": "Brendan",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S34": {
+    "id": "S34",
+    "journalId": "sq018_jackie",
+    "type": "S",
+    "title": "Heroes",
+    "giver": "Mama Welles",
+    "rewards": [
+      {
+        "name": "La Chingona Dorada",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Ofrenda altar ~24h after S34 (requires sending Jackie's body to family in M10)."
+      },
+      {
+        "name": "Jackie's Arch",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Keys from Mama Welles (requires sending Jackie's body to family in M10)."
+      },
+      {
+        "name": "Jackie's Tuned Arch",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Nomad-exclusive upgraded variant if Nomad V gives tuning advice."
+      }
+    ],
+    "reqText": "Req choices in M10",
+    "unlocksRaw": "S35",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S35": {
+    "id": "S35",
+    "journalId": "mq017_streetkid",
+    "type": "S",
+    "title": "Small Man, Big Mouth",
+    "giver": "Kirk Sawyer",
+    "rewards": [],
+    "reqText": "Req M02",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S36": {
+    "id": "S36",
+    "journalId": "mq011_wilson",
+    "type": "S",
+    "title": "Shoot to Thrill",
+    "giver": "Robert Wilson",
+    "rewards": [
+      {
+        "name": "Lexington X-MOD2",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Win 1st place in Wilson's shooting contest (not sold at Black Market)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S37": {
+    "id": "S37",
+    "journalId": "mq010_barry",
+    "type": "S",
+    "title": "Happy Together",
+    "giver": "Barry Lewis",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S38": {
+    "id": "S38",
+    "journalId": "mq023_bootleg",
+    "type": "S",
+    "title": "The Ballad of Buck Ravers",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S39": {
+    "id": "S39",
+    "journalId": "mq006_rollercoaster",
+    "type": "S",
+    "title": "Love Rollercoaster",
+    "giver": "(Coastview)",
+    "rewards": [],
+    "reqText": "Only before M25",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S40": {
+    "id": "S40",
+    "journalId": "sq025_0_pickup",
+    "type": "S",
+    "title": "Human Nature",
+    "giver": "Delamain",
+    "rewards": [
+      {
+        "name": "Archer Hella EC-D i360",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S41",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S41": {
+    "id": "S41",
+    "journalId": "sq025_compensation",
+    "type": "S",
+    "title": "Tune Up",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S42–S48",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S42": {
+    "id": "S42",
+    "journalId": "sq025c05_scared",
+    "type": "S",
+    "title": "Epistrophy: Northside",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S43–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S43": {
+    "id": "S43",
+    "journalId": "sq025c02_sad",
+    "type": "S",
+    "title": "Epistrophy: North Oak",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S44": {
+    "id": "S44",
+    "journalId": "sq025c01_angry",
+    "type": "S",
+    "title": "Epistrophy: Wellsprings",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S45": {
+    "id": "S45",
+    "journalId": "sq025c07_suicidal",
+    "type": "S",
+    "title": "Epistrophy: The Glen",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S46": {
+    "id": "S46",
+    "journalId": "sq025c04_manic",
+    "type": "S",
+    "title": "Epistrophy: Rancho Coronado",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S47": {
+    "id": "S47",
+    "journalId": "sq025c03_mean",
+    "type": "S",
+    "title": "Epistrophy: Coastview",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S48": {
+    "id": "S48",
+    "journalId": "sq025c06_mean",
+    "type": "S",
+    "title": "Epistrophy: Badlands",
+    "giver": "Delamain",
+    "rewards": [],
+    "reqText": "`=` S42–S48",
+    "unlocksRaw": "S49",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S49": {
+    "id": "S49",
+    "journalId": "sq025b_delamain_insurgence",
+    "type": "S",
+    "title": "Don't Lose Your Mind",
+    "giver": "Delamain",
+    "rewards": [
+      {
+        "name": "Delamain No. 21",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all S42–S48",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S50": {
+    "id": "S50",
+    "journalId": "sq012_lost_girl",
+    "type": "S",
+    "title": "I Fought the Law",
+    "giver": "River Ward",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S51, S52, S52b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S51": {
+    "id": "S51",
+    "journalId": "sq006_dream_on",
+    "type": "S",
+    "title": "Dream On",
+    "giver": "Jefferson Peralez",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S52": {
+    "id": "S52",
+    "journalId": "sq021_sick_dreams",
+    "type": "S",
+    "title": "The Hunt",
+    "giver": "River Ward",
+    "rewards": [
+      {
+        "name": "Tinker Bell",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hidden room under desk in Edgewood Farm; locks after leaving."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S53",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S52b": {
+    "id": "S52b",
+    "journalId": "mq036_overload",
+    "type": "S",
+    "title": "Sweet Dreams",
+    "giver": "Stefan",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S53": {
+    "id": "S53",
+    "journalId": "sq029_sobchak_romance",
+    "type": "S",
+    "title": "Following the River",
+    "giver": "River Ward",
+    "rewards": [
+      {
+        "name": "Crash",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Kutcher's Home",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S54": {
+    "id": "S54",
+    "journalId": "sq023_hit_order",
+    "type": "S",
+    "title": "Sinnerman",
+    "giver": "Joshua Stephenson",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S55",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S55": {
+    "id": "S55",
+    "journalId": "sq023_bd_passion",
+    "type": "S",
+    "title": "There Is a Light That Never Goes Out",
+    "giver": "Joshua Stephenson",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S56",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S56": {
+    "id": "S56",
+    "journalId": "sq023_real_passion",
+    "type": "S",
+    "title": "They Won't Go When I Go",
+    "giver": "Joshua Stephenson",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S57": {
+    "id": "S57",
+    "journalId": "sq004_riders_on_the_storm",
+    "type": "S",
+    "title": "Riders on the Storm",
+    "giver": "Panam Palmer",
+    "rewards": [
+      {
+        "name": "Overwatch",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Gifted by Panam upon completing Riders on the Storm."
+      },
+      {
+        "name": "Problem Solver",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Wraith Boss Hunter guarding camp entrance/garage."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S58",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S58": {
+    "id": "S58",
+    "journalId": "sq027_01_basilisk_convoy",
+    "type": "S",
+    "title": "With a Little Help from My Friends",
+    "giver": "Panam Palmer",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S59, S60, S61",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S59": {
+    "id": "S59",
+    "journalId": "sq027_02_raffen_shiv_attack",
+    "type": "S",
+    "title": "Queen of the Highway",
+    "giver": "Panam Palmer",
+    "rewards": [
+      {
+        "name": "Nomad Camp",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S62, M34",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S60": {
+    "id": "S60",
+    "journalId": "mq002_veterans",
+    "type": "S",
+    "title": "Gun Music",
+    "giver": "(Arroyo)",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S61": {
+    "id": "S61",
+    "journalId": "mq001_scorpion",
+    "type": "S",
+    "title": "I'll Fly Away",
+    "giver": "Mitch Anderson",
+    "rewards": [
+      {
+        "name": "Stinger",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Quest locks permanently if S59 progresses."
+      },
+      {
+        "name": "Scorpion's Action Figure",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Apartment decoration; quest locks permanently if S59 progresses."
+      }
+    ],
+    "reqText": "Only before S59",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S62": {
+    "id": "S62",
+    "journalId": "mq021_guide",
+    "type": "S",
+    "title": "Fortunate Son",
+    "giver": "Bob Sagan",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S63": {
+    "id": "S63",
+    "journalId": "mq025_03_arroyo",
+    "type": "S",
+    "title": "Beat on the Brat: Arroyo",
+    "giver": "Coach Fred",
+    "rewards": [
+      {
+        "name": "O'Five",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Wager via Body check or provoke & kill Buck."
+      }
+    ],
+    "reqText": "`=` S64, S65",
+    "unlocksRaw": "S66",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S64": {
+    "id": "S64",
+    "journalId": "mq025_07_fight_club",
+    "type": "S",
+    "title": "Beat on the Brat: Rancho Coronado",
+    "giver": "Coach Fred",
+    "rewards": [],
+    "reqText": "`=` S63, S65",
+    "unlocksRaw": "S66",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S65": {
+    "id": "S65",
+    "journalId": "mq025_05_glen",
+    "type": "S",
+    "title": "Beat on the Brat: The Glen",
+    "giver": "Coach Fred",
+    "rewards": [
+      {
+        "name": "Villefort Alvarado \"Vato\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "`=` S63, S64",
+    "unlocksRaw": "S66",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S66": {
+    "id": "S66",
+    "journalId": "mq025_06_pacifica",
+    "type": "S",
+    "title": "Beat on the Brat: Pacifica",
+    "giver": "Coach Fred",
+    "rewards": [],
+    "reqText": "Req all Beat on the Brat",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S67": {
+    "id": "S67",
+    "journalId": "mq044_jakes_vehicle",
+    "type": "S",
+    "title": "Sex on Wheels",
+    "giver": "(Rancho Coronado)",
+    "rewards": [
+      {
+        "name": "Quadra Turbo-R V-Tech",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "From G60",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68": {
+    "id": "S68",
+    "journalId": "watson_reward",
+    "type": "S",
+    "title": "Last Call",
+    "giver": "Regina Jones",
+    "rewards": [
+      {
+        "name": "Axolotl",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G01–G23",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68b": {
+    "id": "S68b",
+    "journalId": "city_center_reward",
+    "type": "S",
+    "title": "Gas Gas Gas",
+    "giver": "Dino Dinovic",
+    "rewards": [
+      {
+        "name": "Quadra Type-66 640 TS",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G24–G28",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68c": {
+    "id": "S68c",
+    "journalId": "westbrook_reward",
+    "type": "S",
+    "title": "Professional Widow",
+    "giver": "Wakako Okada",
+    "rewards": [
+      {
+        "name": "Byakko",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G29–G36",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68d": {
+    "id": "S68d",
+    "journalId": "badlands_reward",
+    "type": "S",
+    "title": "Every Grain of Sand",
+    "giver": "Dakota Smith",
+    "rewards": [
+      {
+        "name": "Thorton Mackinaw \"Saguaro\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G37–G45",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68e": {
+    "id": "S68e",
+    "journalId": "santo_domingo_reward",
+    "type": "S",
+    "title": "Ride Captain Ride",
+    "giver": "Muamar Reyes",
+    "rewards": [
+      {
+        "name": "Bloody Maria",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G46–G56",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S68f": {
+    "id": "S68f",
+    "journalId": "heywood_reward",
+    "type": "S",
+    "title": "God Bless This Mess",
+    "giver": "Sebastian Ibarra",
+    "rewards": [
+      {
+        "name": "Seraph",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all G57–G63e",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S69": {
+    "id": "S69",
+    "journalId": "sq031_rogue",
+    "type": "S",
+    "title": "Chippin' In",
+    "giver": "Johnny Silverhand",
+    "rewards": [
+      {
+        "name": "Johnny's Aviators",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Replica of Johnny's Samurai Jacket",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Malorian Arms 3516",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Jeremiah Grayson at Ebunike Docks."
+      },
+      {
+        "name": "Porsche 911 II (930) Turbo",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Requires container key from Grayson."
+      }
+    ],
+    "reqText": "`[+]` M14b & M20; (during: SI01)",
+    "unlocksRaw": "S71, S72",
+    "ponr": false,
+    "repeatable": false,
+    "during": "SI01"
+  },
+  "SI01": {
+    "id": "SI01",
+    "journalId": "sq031_smack_my_bitch_up",
+    "type": "SI",
+    "title": "A Cool Metal Fire",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "Takes place during S69",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S70": {
+    "id": "S70",
+    "journalId": "mq019_paparazzi",
+    "type": "S",
+    "title": "Violence",
+    "giver": "Lizzy Wizzy",
+    "rewards": [],
+    "reqText": "`[+]` M14b & M20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S71": {
+    "id": "S71",
+    "journalId": "sq011_kerry",
+    "type": "S",
+    "title": "Holdin' On",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S73",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S72": {
+    "id": "S72",
+    "journalId": "sq031_cinema",
+    "type": "S",
+    "title": "Blistering Love",
+    "giver": "Johnny Silverhand",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "M38, M40",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S73": {
+    "id": "S73",
+    "journalId": "sq011_johnny",
+    "type": "S",
+    "title": "Second Conflict",
+    "giver": "Johnny Silverhand",
+    "rewards": [
+      {
+        "name": "Doom Doom",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Dum Dum in Totentanz (requires Dum Dum surviving M08)."
+      },
+      {
+        "name": "Gold-Plated Baseball Bat",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Denny's pool; requires siding with Denny over Henry."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S74",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S74": {
+    "id": "S74",
+    "journalId": "sq011_concert",
+    "type": "S",
+    "title": "A Like Supreme",
+    "giver": "Bes Isis",
+    "rewards": [
+      {
+        "name": "Archangel",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S75, S79",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S75": {
+    "id": "S75",
+    "journalId": "sq017_kerry",
+    "type": "S",
+    "title": "Rebel! Rebel!",
+    "giver": "Kerry Eurodyne",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S76",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S76": {
+    "id": "S76",
+    "journalId": "sq017_01_riot_club",
+    "type": "S",
+    "title": "I Don't Wanna Hear It",
+    "giver": "Kerry Eurodyne",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S77",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S77": {
+    "id": "S77",
+    "journalId": "sq017_02_lounge",
+    "type": "S",
+    "title": "Off the Leash",
+    "giver": "Kerry Eurodyne",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S78, S80",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S78": {
+    "id": "S78",
+    "journalId": "sq028_kerry_romance",
+    "type": "S",
+    "title": "Boat Drinks",
+    "giver": "Kerry Eurodyne",
+    "rewards": [
+      {
+        "name": "Villa Eurodyne",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S79": {
+    "id": "S79",
+    "journalId": "mq018_writer",
+    "type": "S",
+    "title": "Killing in the Name",
+    "giver": "Bes Isis",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S80": {
+    "id": "S80",
+    "journalId": "mq028_stalker",
+    "type": "S",
+    "title": "Every Breath You Take",
+    "giver": "Blue Moon",
+    "rewards": [],
+    "reqText": "Req choices in S76",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S81": {
+    "id": "S81",
+    "journalId": "sq024_city_race",
+    "type": "S",
+    "title": "The Beast in Me: City Center",
+    "giver": "Claire Russell",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S82",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S82": {
+    "id": "S82",
+    "journalId": "sq024_badlands_race",
+    "type": "S",
+    "title": "The Beast in Me: Badlands",
+    "giver": "Claire Russell",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S83",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S83": {
+    "id": "S83",
+    "journalId": "sq024_santo_domingo_race",
+    "type": "S",
+    "title": "The Beast in Me: Santo Domingo",
+    "giver": "Claire Russell",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S84",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S84": {
+    "id": "S84",
+    "journalId": "sq024_the_big_race",
+    "type": "S",
+    "title": "The Beast in Me: The Big Race",
+    "giver": "Claire Russell",
+    "rewards": [
+      {
+        "name": "Quadra Type-66 \"Cthulhu\"",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Thorton Mackinaw \"Beast\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S85": {
+    "id": "S85",
+    "journalId": "mq035_ozob",
+    "type": "S",
+    "title": "Send in the Clowns",
+    "giver": "Ozob Bozo",
+    "rewards": [
+      {
+        "name": "Ozob's Nose",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S86": {
+    "id": "S86",
+    "journalId": "mq041_corpo",
+    "type": "S",
+    "title": "War Pigs",
+    "giver": "Frank Nostra",
+    "rewards": [
+      {
+        "name": "Apparition",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Corpo lifepath exclusive; looted from Frank."
+      }
+    ],
+    "reqText": "Req M03",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S87": {
+    "id": "S87",
+    "journalId": "mq024_sandra",
+    "type": "S",
+    "title": "Full Disclosure",
+    "giver": "Sandra Dorsett",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S88": {
+    "id": "S88",
+    "journalId": "sq026_01_suicide",
+    "type": "S",
+    "title": "Both Sides, Now",
+    "giver": "Judy Alvarez",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S89",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S89": {
+    "id": "S89",
+    "journalId": "sq026_02_maiko",
+    "type": "S",
+    "title": "Ex-Factor",
+    "giver": "Judy Alvarez",
+    "rewards": [
+      {
+        "name": "Death and Taxes",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Desk in Maiko's office (fallback: Judy's apartment)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S90",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S90": {
+    "id": "S90",
+    "journalId": "sq026_03_pizza",
+    "type": "S",
+    "title": "Talkin' 'bout a Revolution",
+    "giver": "Judy Alvarez",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S91",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S91": {
+    "id": "S91",
+    "journalId": "sq026_04_hiromi",
+    "type": "S",
+    "title": "Pisces",
+    "giver": "Judy Alvarez",
+    "rewards": [
+      {
+        "name": "Tsumetogi",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hiromi's penthouse table/Hiromi; penthouse locks after leaving."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S92",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S92": {
+    "id": "S92",
+    "journalId": "sq030_judy_romance",
+    "type": "S",
+    "title": "Pyramid Song",
+    "giver": "Judy Alvarez",
+    "rewards": [
+      {
+        "name": "Judy's Apartment",
+        "method": "quest_reward",
+        "missable": true
+      },
+      {
+        "name": "Mox",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Judy's kitchen counter 1–2 weeks after S92 on good terms."
+      },
+      {
+        "name": "MaxTac Outfit",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Wall container in Judy's apartment (Feminine V + Judy romance only)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S93": {
+    "id": "S93",
+    "journalId": "mq303_addict",
+    "type": "S",
+    "title": "Dazed and Confused",
+    "giver": "Lina Malina",
+    "rewards": [
+      {
+        "name": "Baby Boomer",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Lina Malina's T-Shirt",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Malina-Mobile",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S94": {
+    "id": "S94",
+    "journalId": "mq305_combat_zone_report",
+    "type": "S",
+    "title": "Shot by Both Sides",
+    "giver": "Bree Whitney",
+    "rewards": [
+      {
+        "name": "Ol' Reliable",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Dante Caruso if siding with Bree (mutually exclusive with Riskit)."
+      },
+      {
+        "name": "Riskit",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Bree Whitney if siding with Dante (mutually exclusive with Ol' Reliable)."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S95": {
+    "id": "S95",
+    "journalId": "wst_ep1_04",
+    "type": "S",
+    "title": "Addicted to Chaos",
+    "giver": "Leon Rinder",
+    "rewards": [
+      {
+        "name": "Dezerter",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Leon Rinder's stash (requires sparing Rinder in G71)."
+      }
+    ],
+    "reqText": "Req choices in G71",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S96": {
+    "id": "S96",
+    "journalId": "wst_ep1_05",
+    "type": "S",
+    "title": "Go Your Own Way",
+    "giver": "Hasan",
+    "rewards": [
+      {
+        "name": "Ambition",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Gifted by Hasan (requires sparing Hasan in G74)."
+      }
+    ],
+    "reqText": "Req choices in G74",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S97": {
+    "id": "S97",
+    "journalId": "wst_ep1_11_bill_meeting",
+    "type": "S",
+    "title": "New Person, Same Old Mistakes",
+    "giver": "Bill Mitchell",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S98": {
+    "id": "S98",
+    "journalId": "mq301_bomb",
+    "type": "S",
+    "title": "Balls to the Wall",
+    "giver": "Paco Torres",
+    "rewards": [
+      {
+        "name": "Carmen",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Only before PL10",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S98b": {
+    "id": "S98b",
+    "journalId": "mq306_dumpster",
+    "type": "S",
+    "title": "No Easy Way Out",
+    "giver": "Coach Fred",
+    "rewards": [
+      {
+        "name": "Cheetah",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S99": {
+    "id": "S99",
+    "journalId": "courier_intro_journal",
+    "type": "S",
+    "title": "Push It to the Limit",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S100",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S100": {
+    "id": "S100",
+    "journalId": "courier_test",
+    "type": "S",
+    "title": "Just Another Story",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "Repeatable",
+    "unlocksRaw": "S100b",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  },
+  "S100b": {
+    "id": "S100b",
+    "journalId": "courier_outro_dock",
+    "type": "S",
+    "title": "Baby Let Me Take You",
+    "giver": "Muamar Reyes",
+    "rewards": [
+      {
+        "name": "Herrera Outlaw \"Weiler\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req 8 S100 missions",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S101": {
+    "id": "S101",
+    "journalId": "q304_splinter_stash",
+    "type": "S",
+    "title": "Voodoo Treasure",
+    "giver": "Aurore Cassel",
+    "rewards": [
+      {
+        "name": "Rook",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Slider's secret stash (requires downloading Blind_n_Dead in PL09)."
+      }
+    ],
+    "reqText": "Req choices in PL09",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S102": {
+    "id": "S102",
+    "journalId": "wst_ep1_09",
+    "type": "S",
+    "title": "One Way or Another",
+    "giver": "Nele Springer",
+    "rewards": [],
+    "reqText": "Req choices in G76",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S103": {
+    "id": "S103",
+    "journalId": "q305_postcontent",
+    "type": "S",
+    "title": "This Corrosion",
+    "giver": "Yoko Tsuru",
+    "rewards": [
+      {
+        "name": "Erebus",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Decoded & crafted from PL12 spec (mutually exclusive with Militech Canto Mk.6)."
+      },
+      {
+        "name": "Militech Canto Mk.6",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Decoded & crafted from PL12 spec (mutually exclusive with Erebus)."
+      }
+    ],
+    "reqText": "Req choices in PL12",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S104": {
+    "id": "S104",
+    "journalId": "mq304_succession",
+    "type": "S",
+    "title": "Run This Town",
+    "giver": "Aguilar Nubiola",
+    "rewards": [
+      {
+        "name": "Mancinella",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Given by Mr. Hands at start of quest (requires PL10 Reed path)."
+      },
+      {
+        "name": "Aguilar's Suit",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "3-piece suit provided by Mr. Hands."
+      }
+    ],
+    "reqText": "From PL10 `[!]`",
+    "unlocksRaw": "G77",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S105": {
+    "id": "S105",
+    "journalId": "combat_zone_reward",
+    "type": "S",
+    "title": "Hi Ho Silver Lining",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Quadra Sport R-7 \"Sterling\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req all Mr. Hands Gigs",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S106": {
+    "id": "S106",
+    "journalId": "q304_car_retrieval",
+    "type": "S",
+    "title": "Moving Heat",
+    "giver": "Ashlay",
+    "rewards": [
+      {
+        "name": "Quadra Sport R-7 \"Charon\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "From PL10 `[!]`",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S107": {
+    "id": "S107",
+    "journalId": "sts_ep1_08_loot_pickup",
+    "type": "S",
+    "title": "Money for Nothing",
+    "giver": "Katya Karelina",
+    "rewards": [],
+    "reqText": "Req choices in G73",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S108": {
+    "id": "S108",
+    "journalId": "sts_ep1_08_steven_meeting_night_city",
+    "type": "S",
+    "title": "The Show Must Go On",
+    "giver": "Steven Santos",
+    "rewards": [],
+    "reqText": "Req choices in G73",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S109": {
+    "id": "S109",
+    "journalId": "mq022_ezekiel",
+    "type": "S",
+    "title": "Ezekiel Saw the Wheel",
+    "giver": "(Arroyo)",
+    "rewards": [],
+    "reqText": "Req M11",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S110": {
+    "id": "S110",
+    "journalId": "mws_wat_08_trauma_drama",
+    "type": "S",
+    "title": "Career Opportunities",
+    "giver": "(Watson)",
+    "rewards": [
+      {
+        "name": "Trauma Team uniform",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Mini Trauma Team AV",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req M05 (Trauma Drama high score)",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S111": {
+    "id": "S111",
+    "journalId": "mq055_romance_apartment",
+    "type": "S",
+    "title": "I Really Want to Stay at Your House",
+    "giver": "Panam / Judy / River / Kerry",
+    "rewards": [],
+    "reqText": "Req romance path (S59 / S92 / S53 / S78); repeatable",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  },
+  "S112": {
+    "id": "S112",
+    "journalId": "ue_metro_start",
+    "type": "S",
+    "title": "Don't Sleep on the Subway",
+    "giver": "(Watson)",
+    "rewards": [
+      {
+        "name": "NCART Metro Pass",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req M11",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S113": {
+    "id": "S113",
+    "journalId": "mq056_race_replay",
+    "type": "S",
+    "title": "The Distance",
+    "giver": "Claire Russell",
+    "rewards": [],
+    "reqText": "Req S84; repeatable",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  },
+  "S114": {
+    "id": "S114",
+    "journalId": "mws_se5_07",
+    "type": "S",
+    "title": "Shape of a Pony",
+    "giver": "(Badlands)",
+    "rewards": [
+      {
+        "name": "Porsche 911 Turbo (930) Cabriolet",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req M11 & purchase Porsche 911 Turbo Cabriolet",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S115": {
+    "id": "S115",
+    "journalId": "mq057_motorbreath",
+    "type": "S",
+    "title": "Motorbreath",
+    "giver": "River Ward",
+    "rewards": [
+      {
+        "name": "Yaiba ARV-Q340 Semimaru",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req S53 & S84",
+    "unlocksRaw": "S116",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S116": {
+    "id": "S116",
+    "journalId": "mq058_semimaru_crystalcoat",
+    "type": "S",
+    "title": "Where Eagles Dare",
+    "giver": "Claire Russell",
+    "rewards": [
+      {
+        "name": "Semimaru CrystalCoat",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req S115",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S117": {
+    "id": "S117",
+    "journalId": "mq059_freedom",
+    "type": "S",
+    "title": "Freedom",
+    "giver": "Muamar Reyes",
+    "rewards": [
+      {
+        "name": "Rayfield Caliburn \"Mordred\"",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Req M28, M19 & S83",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S118": {
+    "id": "S118",
+    "journalId": "mq060_nitro",
+    "type": "S",
+    "title": "Nitro (Youth Energy)",
+    "giver": "(Westbrook)",
+    "rewards": [
+      {
+        "name": "Yaiba ASM-R250 Muramasa",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Check apartment email",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S119": {
+    "id": "S119",
+    "journalId": "mq061",
+    "type": "S",
+    "title": "Welcome To Paradise",
+    "giver": "(Night City)",
+    "rewards": [],
+    "reqText": "Req M10 & 15 Street Cred",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S120": {
+    "id": "S120",
+    "journalId": "mq062_clampdown",
+    "type": "S",
+    "title": "Clampdown",
+    "giver": "Wakako Okada",
+    "rewards": [
+      {
+        "name": "Coronation",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Smuggled duffle bag in prison bathroom during infiltration."
+      },
+      {
+        "name": "King's Outfit",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "5-piece set in smuggled duffle bag in prison bathroom."
+      }
+    ],
+    "reqText": "Req M15 & 2 Wakako Gigs",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S121": {
+    "id": "S121",
+    "journalId": "mq027_stunts",
+    "type": "S",
+    "title": "Living on the Edge",
+    "giver": "—",
+    "rewards": [],
+    "reqText": "Unused / Cut in-game journal entry",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S122": {
+    "id": "S122",
+    "journalId": "mq033_tarot_minor",
+    "type": "S",
+    "title": "You Tell Me",
+    "giver": "Misty Olszewski",
+    "rewards": [
+      {
+        "name": "Misty's Dreamcatcher",
+        "method": "quest_reward",
+        "missable": false
+      }
+    ],
+    "reqText": "Tarot minor tracker",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S123": {
+    "id": "S123",
+    "journalId": "mq300_safehouse",
+    "type": "S",
+    "title": "Water Runs Dry",
+    "giver": "(Dogtown)",
+    "rewards": [],
+    "reqText": "Req PL04",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S124": {
+    "id": "S124",
+    "journalId": "sts_ep1_12_pickup",
+    "type": "S",
+    "title": "Corpo of the Month",
+    "giver": "Alan Noël",
+    "rewards": [],
+    "reqText": "Req choices in G70",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S125": {
+    "id": "S125",
+    "journalId": "sts_ep1_08_katya_data_shard",
+    "type": "S",
+    "title": "Am I Demon?",
+    "giver": "Katya Karelina",
+    "rewards": [],
+    "reqText": "Req choices in G73",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "S126": {
+    "id": "S126",
+    "journalId": "q304_gear_pickup",
+    "type": "S",
+    "title": "Dirty Second Hands",
+    "giver": "(Dogtown)",
+    "rewards": [],
+    "reqText": "Req PL10 (Songbird path)",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G01": {
+    "id": "G01",
+    "journalId": "sts_wat_lch_05",
+    "type": "G",
+    "title": "Gig: Playing for Keeps",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G02–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G02": {
+    "id": "G02",
+    "journalId": "sts_wat_kab_07",
+    "type": "G",
+    "title": "Gig: Monster Hunt",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G03": {
+    "id": "G03",
+    "journalId": "sts_wat_kab_02",
+    "type": "G",
+    "title": "Gig: Hippocratic Oath",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G04": {
+    "id": "G04",
+    "journalId": "sts_wat_nid_02",
+    "type": "G",
+    "title": "Gig: Many Ways to Skin a Cat",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G05": {
+    "id": "G05",
+    "journalId": "sts_wat_nid_05",
+    "type": "G",
+    "title": "Gig: Rite of Passage",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G06": {
+    "id": "G06",
+    "journalId": "sts_wat_kab_102",
+    "type": "G",
+    "title": "Gig: Welcome to America, Comrade",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G07": {
+    "id": "G07",
+    "journalId": "sts_wat_kab_107",
+    "type": "G",
+    "title": "Gig: Troublesome Neighbors",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G08": {
+    "id": "G08",
+    "journalId": "sts_wat_nid_04",
+    "type": "G",
+    "title": "Gig: Dirty Biz",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G09": {
+    "id": "G09",
+    "journalId": "sts_wat_lch_01",
+    "type": "G",
+    "title": "Gig: Catch a Tyger's Toe",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G10": {
+    "id": "G10",
+    "journalId": "sts_wat_kab_08",
+    "type": "G",
+    "title": "Gig: Woman of La Mancha",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G11": {
+    "id": "G11",
+    "journalId": "sts_wat_kab_03",
+    "type": "G",
+    "title": "Gig: Backs Against the Wall",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G12": {
+    "id": "G12",
+    "journalId": "sts_wat_kab_06",
+    "type": "G",
+    "title": "Gig: Shark in the Water",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G13": {
+    "id": "G13",
+    "journalId": "sts_wat_nid_03",
+    "type": "G",
+    "title": "Gig: Flight of the Cheetah",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G14": {
+    "id": "G14",
+    "journalId": "sts_wat_kab_101",
+    "type": "G",
+    "title": "Gig: Small Man, Big Evil",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G15": {
+    "id": "G15",
+    "journalId": "sts_wat_kab_05",
+    "type": "G",
+    "title": "Gig: Last Login",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G16": {
+    "id": "G16",
+    "journalId": "sts_wat_lch_03",
+    "type": "G",
+    "title": "Gig: Bloodsport",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G17": {
+    "id": "G17",
+    "journalId": "sts_wat_nid_07",
+    "type": "G",
+    "title": "Gig: Scrolls Before Swine",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G18": {
+    "id": "G18",
+    "journalId": "sts_wat_nid_12",
+    "type": "G",
+    "title": "Gig: Freedom of the Press",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G19": {
+    "id": "G19",
+    "journalId": "sts_wat_nid_06",
+    "type": "G",
+    "title": "Gig: Lousy Kleppers",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G20": {
+    "id": "G20",
+    "journalId": "sts_wat_lch_06",
+    "type": "G",
+    "title": "Gig: The Heisenberg Principle",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G21": {
+    "id": "G21",
+    "journalId": "sts_wat_kab_04",
+    "type": "G",
+    "title": "Gig: Fixer, Merc, Soldier, Spy",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G22": {
+    "id": "G22",
+    "journalId": "sts_wat_nid_01",
+    "type": "G",
+    "title": "Gig: Occupational Hazard",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` G01–G23",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G23": {
+    "id": "G23",
+    "journalId": "sts_wat_kab_01",
+    "type": "G",
+    "title": "Gig: Concrete Cage Trap",
+    "giver": "Regina Jones",
+    "rewards": [
+      {
+        "name": "Hypercritical",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Bathroom sink in Tiny Mike's apartment; locks after gig."
+      }
+    ],
+    "reqText": "`=` G01–G22",
+    "unlocksRaw": "S68",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G24": {
+    "id": "G24",
+    "journalId": "sts_cct_dtn_03",
+    "type": "G",
+    "title": "Gig: A Lack of Empathy",
+    "giver": "Dino Dinovic",
+    "rewards": [],
+    "reqText": "`=` G25–G28",
+    "unlocksRaw": "S68b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G25": {
+    "id": "G25",
+    "journalId": "sts_cct_cpz_01",
+    "type": "G",
+    "title": "Gig: Serial Suicide",
+    "giver": "Dino Dinovic",
+    "rewards": [],
+    "reqText": "`=` G24–G28",
+    "unlocksRaw": "S68b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G26": {
+    "id": "G26",
+    "journalId": "sts_cct_dtn_02",
+    "type": "G",
+    "title": "Gig: An Inconvenient Killer",
+    "giver": "Dino Dinovic",
+    "rewards": [],
+    "reqText": "`=` G24–G28",
+    "unlocksRaw": "S68b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G27": {
+    "id": "G27",
+    "journalId": "sts_cct_dtn_05",
+    "type": "G",
+    "title": "Gig: The Frolics of Councilwoman Cole",
+    "giver": "Dino Dinovic",
+    "rewards": [],
+    "reqText": "`=` G24–G28",
+    "unlocksRaw": "S68b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G28": {
+    "id": "G28",
+    "journalId": "sts_cct_dtn_04",
+    "type": "G",
+    "title": "Gig: Guinea Pigs",
+    "giver": "Dino Dinovic",
+    "rewards": [],
+    "reqText": "`=` G24–G27",
+    "unlocksRaw": "S68b",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G29": {
+    "id": "G29",
+    "journalId": "sts_wbr_jpn_02",
+    "type": "G",
+    "title": "Gig: We Have Your Wife",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G30–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G30": {
+    "id": "G30",
+    "journalId": "sts_wbr_hil_07",
+    "type": "G",
+    "title": "Gig: Tyger and Vulture",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G31": {
+    "id": "G31",
+    "journalId": "sts_wbr_jpn_01",
+    "type": "G",
+    "title": "Gig: Olive Branch",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G32": {
+    "id": "G32",
+    "journalId": "sts_wbr_jpn_12",
+    "type": "G",
+    "title": "Gig: Greed Never Pays",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G33": {
+    "id": "G33",
+    "journalId": "sts_wbr_hil_01",
+    "type": "G",
+    "title": "Gig: Until Death Do Us Part",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G34": {
+    "id": "G34",
+    "journalId": "sts_wbr_jpn_05",
+    "type": "G",
+    "title": "Gig: Wakako's Favorite",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G35": {
+    "id": "G35",
+    "journalId": "sts_hey_rey_09",
+    "type": "G",
+    "title": "Gig: Getting Warmer...",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G36",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G36": {
+    "id": "G36",
+    "journalId": "sts_wbr_jpn_03",
+    "type": "G",
+    "title": "Gig: A Shrine Defiled",
+    "giver": "Wakako Okada",
+    "rewards": [],
+    "reqText": "`=` G29–G35",
+    "unlocksRaw": "G66, S68c",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G37": {
+    "id": "G37",
+    "journalId": "sts_bls_ina_03",
+    "type": "G",
+    "title": "Gig: Flying Drugs",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G38–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G38": {
+    "id": "G38",
+    "journalId": "sts_bls_ina_07",
+    "type": "G",
+    "title": "Gig: Dancing on a Minefield",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G39": {
+    "id": "G39",
+    "journalId": "sts_bls_ina_06",
+    "type": "G",
+    "title": "Gig: No Fixers",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G40": {
+    "id": "G40",
+    "journalId": "sts_bls_ina_02",
+    "type": "G",
+    "title": "Gig: Big Pete's Got Big Problems",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G41": {
+    "id": "G41",
+    "journalId": "sts_bls_ina_08",
+    "type": "G",
+    "title": "Gig: Trevor's Last Ride",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G42": {
+    "id": "G42",
+    "journalId": "sts_bls_ina_11",
+    "type": "G",
+    "title": "Gig: Sparring Partner",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G43": {
+    "id": "G43",
+    "journalId": "sts_bls_ina_09",
+    "type": "G",
+    "title": "Gig: MIA",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G44": {
+    "id": "G44",
+    "journalId": "sts_bls_ina_05",
+    "type": "G",
+    "title": "Gig: Goodbye, Night City",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G45",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G45": {
+    "id": "G45",
+    "journalId": "sts_bls_ina_04",
+    "type": "G",
+    "title": "Gig: Radar Love",
+    "giver": "Dakota Smith",
+    "rewards": [],
+    "reqText": "`=` G37–G44",
+    "unlocksRaw": "S68d",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G46": {
+    "id": "G46",
+    "journalId": "sts_std_rcr_04",
+    "type": "G",
+    "title": "Gig: Error 404",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G47–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G47": {
+    "id": "G47",
+    "journalId": "sts_std_arr_01",
+    "type": "G",
+    "title": "Gig: Serious Side Effects",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G48": {
+    "id": "G48",
+    "journalId": "sts_std_arr_03",
+    "type": "G",
+    "title": "Gig: Race to the Top",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G49": {
+    "id": "G49",
+    "journalId": "sts_std_rcr_05",
+    "type": "G",
+    "title": "Gig: Family Matters",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G50": {
+    "id": "G50",
+    "journalId": "sts_std_arr_05",
+    "type": "G",
+    "title": "Gig: Breaking News",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G51": {
+    "id": "G51",
+    "journalId": "sts_std_arr_11",
+    "type": "G",
+    "title": "Gig: Hacking the Hacker",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G52": {
+    "id": "G52",
+    "journalId": "sts_std_rcr_02",
+    "type": "G",
+    "title": "Gig: Cuckoo's Nest",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G53": {
+    "id": "G53",
+    "journalId": "sts_std_arr_10",
+    "type": "G",
+    "title": "Gig: Severance Package",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G54": {
+    "id": "G54",
+    "journalId": "sts_pac_wwd_05",
+    "type": "G",
+    "title": "Gig: For My Son",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G55": {
+    "id": "G55",
+    "journalId": "sts_std_rcr_03",
+    "type": "G",
+    "title": "Gig: Going-Away Party",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G56",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G56": {
+    "id": "G56",
+    "journalId": "sts_std_arr_12",
+    "type": "G",
+    "title": "Gig: Desperate Measures",
+    "giver": "Muamar Reyes",
+    "rewards": [],
+    "reqText": "`=` G46–G55",
+    "unlocksRaw": "G67, S68e",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G57": {
+    "id": "G57",
+    "journalId": "sts_hey_rey_06",
+    "type": "G",
+    "title": "Gig: Jeopardy",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G58–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G58": {
+    "id": "G58",
+    "journalId": "sts_hey_gle_04",
+    "type": "G",
+    "title": "Gig: Fifth Column",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G59": {
+    "id": "G59",
+    "journalId": "sts_hey_gle_06",
+    "type": "G",
+    "title": "Gig: Life's Work",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G60": {
+    "id": "G60",
+    "journalId": "sts_hey_spr_01",
+    "type": "G",
+    "title": "Gig: On a Tight Leash",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "S67, G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G61": {
+    "id": "G61",
+    "journalId": "sts_hey_rey_08",
+    "type": "G",
+    "title": "Gig: Old Friends",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G62": {
+    "id": "G62",
+    "journalId": "sts_hey_rey_01",
+    "type": "G",
+    "title": "Gig: Bring Me the Head of Gustavo Orta",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G63": {
+    "id": "G63",
+    "journalId": "sts_hey_gle_03",
+    "type": "G",
+    "title": "Gig: Psychofan",
+    "giver": "Sebastian Ibarra",
+    "rewards": [
+      {
+        "name": "Johnny's Pants",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase upstairs in Gaston Slayton's penthouse; locks after gig (not at Black Market)."
+      }
+    ],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G63b": {
+    "id": "G63b",
+    "journalId": "sts_hey_rey_02",
+    "type": "G",
+    "title": "Gig: Sr. Ladrillo's Private Collection",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G63c": {
+    "id": "G63c",
+    "journalId": "sts_hey_gle_01",
+    "type": "G",
+    "title": "Gig: Eye for an Eye",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G63d": {
+    "id": "G63d",
+    "journalId": "sts_hey_spr_03",
+    "type": "G",
+    "title": "Gig: The Lord Giveth and Taketh Away",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63e",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G63e": {
+    "id": "G63e",
+    "journalId": "sts_hey_gle_05",
+    "type": "G",
+    "title": "Gig: Going Up or Down?",
+    "giver": "Sebastian Ibarra",
+    "rewards": [],
+    "reqText": "`=` G57–G63d",
+    "unlocksRaw": "G68, S68f",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G64": {
+    "id": "G64",
+    "journalId": "sts_pac_cvi_02",
+    "type": "G",
+    "title": "Gig: Two Wrongs Makes Us Right",
+    "giver": "Mr. Hands",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G65b": {
+    "id": "G65b",
+    "journalId": "sts_std_arr_06",
+    "type": "G",
+    "title": "Gig: Nasty Hangover",
+    "giver": "Rogue Amendiares",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G66": {
+    "id": "G66",
+    "journalId": "sts_wbr_hil_06",
+    "type": "G",
+    "title": "Gig: Family Heirloom",
+    "giver": "Rogue Amendiares",
+    "rewards": [
+      {
+        "name": "Johnny's Shoes",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Wall locker in underground garage; locks after gig."
+      }
+    ],
+    "reqText": "Req M12",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G67": {
+    "id": "G67",
+    "journalId": "sts_std_rcr_01",
+    "type": "G",
+    "title": "Gig: The Union Strikes Back",
+    "giver": "Rogue Amendiares",
+    "rewards": [],
+    "reqText": "Req M12",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G68": {
+    "id": "G68",
+    "journalId": "sts_hey_spr_06",
+    "type": "G",
+    "title": "Gig: Hot Merchandise",
+    "giver": "Rogue Amendiares",
+    "rewards": [],
+    "reqText": "Req M12",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G69": {
+    "id": "G69",
+    "journalId": "sts_ep1_01",
+    "type": "G",
+    "title": "Gig: Dogtown Saints",
+    "giver": "Mr. Hands",
+    "rewards": [],
+    "reqText": "`=` G70",
+    "unlocksRaw": "G71, G72, G73",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G70": {
+    "id": "G70",
+    "journalId": "sts_ep1_12",
+    "type": "G",
+    "title": "Gig: Treating Symptoms",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Ogou",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Robot R MK.2 boss in lower server room."
+      }
+    ],
+    "reqText": "`=` G69",
+    "unlocksRaw": "G71, G72, G73",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G71": {
+    "id": "G71",
+    "journalId": "sts_ep1_03",
+    "type": "G",
+    "title": "Gig: The Man Who Killed Jason Foreman",
+    "giver": "Mr. Hands",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S95",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G72": {
+    "id": "G72",
+    "journalId": "sts_ep1_13",
+    "type": "G",
+    "title": "Gig: Talent Academy",
+    "giver": "Mr. Hands",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G73": {
+    "id": "G73",
+    "journalId": "sts_ep1_08",
+    "type": "G",
+    "title": "Gig: Spy in the Jungle",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Pizdets",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from boss Boris Ribakov in Organitopia."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S107, S108",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G74": {
+    "id": "G74",
+    "journalId": "sts_ep1_04",
+    "type": "G",
+    "title": "Gig: Prototype in the Scraper",
+    "giver": "Mr. Hands",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "S96",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G75": {
+    "id": "G75",
+    "journalId": "sts_ep1_10",
+    "type": "G",
+    "title": "Gig: Waiting for Dodger",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Rosco",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Dodger; missed if resolved peacefully via stealth."
+      },
+      {
+        "name": "Volkodav",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Crate inside abandoned NCPD precinct."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S97",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G76": {
+    "id": "G76",
+    "journalId": "sts_ep1_07",
+    "type": "G",
+    "title": "Gig: Roads to Redemption",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Hercules 3AX",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Nighthawks Rehabilitation Center storage/shooting range room."
+      }
+    ],
+    "reqText": "From PL10 `[!]`",
+    "unlocksRaw": "S102",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "G77": {
+    "id": "G77",
+    "journalId": "sts_ep1_06",
+    "type": "G",
+    "title": "Gig: Heaviest of Hearts",
+    "giver": "Mr. Hands",
+    "rewards": [
+      {
+        "name": "Crimestopper",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase in Heavy Hearts VIP Suite."
+      }
+    ],
+    "reqText": "—",
+    "unlocksRaw": "S105",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP01": {
+    "id": "CP01",
+    "journalId": "ma_wat_kab_02",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Demons of War",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "From S08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP02": {
+    "id": "CP02",
+    "journalId": "ma_wat_nid_03",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Where the Bodies Hit the Floor",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "From S08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP03": {
+    "id": "CP03",
+    "journalId": "ma_wat_nid_22",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Six Feet Under",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "From S08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP04": {
+    "id": "CP04",
+    "journalId": "ma_wat_kab_08",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Lt. Mower",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "From S08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP05": {
+    "id": "CP05",
+    "journalId": "ma_wat_lch_06",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Ticket to the Major Leagues",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "From S08",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP06": {
+    "id": "CP06",
+    "journalId": "ma_wat_nid_15",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Bloody Ritual",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP07": {
+    "id": "CP07",
+    "journalId": "ma_bls_ina_se1_22",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Second Chances",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP08–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP08": {
+    "id": "CP08",
+    "journalId": "ma_bls_ina_se1_08",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: House on a Hill",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP09": {
+    "id": "CP09",
+    "journalId": "ma_std_rcr_11",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Discount Doc",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP10": {
+    "id": "CP10",
+    "journalId": "ma_cct_dtn_03",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: On Deaf Ears",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP11": {
+    "id": "CP11",
+    "journalId": "ma_cct_dtn_07",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Phantom of Night City",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP12": {
+    "id": "CP12",
+    "journalId": "ma_hey_spr_06",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Letter of the Law",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP13": {
+    "id": "CP13",
+    "journalId": "ma_pac_cvi_08",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Smoke on the Water",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP14": {
+    "id": "CP14",
+    "journalId": "ma_hey_spr_04",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Seaside Cafe",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP15",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP15": {
+    "id": "CP15",
+    "journalId": "ma_std_arr_06",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Under the Bridge",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "`=` CP07–CP14",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP16": {
+    "id": "CP16",
+    "journalId": "ma_bls_ina_se1_07",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: The Wasteland",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "CP17": {
+    "id": "CP17",
+    "journalId": "ma_pac_cvi_15",
+    "type": "CP",
+    "title": "Cyberpsycho Sighting: Lex Talionis",
+    "giver": "Regina Jones",
+    "rewards": [],
+    "reqText": "—",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T01": {
+    "id": "T01",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Fool",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T02–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T02": {
+    "id": "T02",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Magician",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T03": {
+    "id": "T03",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The High Priestess",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T04": {
+    "id": "T04",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Empress",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T05": {
+    "id": "T05",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Emperor",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T06": {
+    "id": "T06",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Hierophant",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T07": {
+    "id": "T07",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Lovers",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T08": {
+    "id": "T08",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Chariot",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T09": {
+    "id": "T09",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: Strength",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T10": {
+    "id": "T10",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Hermit",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T11": {
+    "id": "T11",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: Wheel of Fortune",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T12": {
+    "id": "T12",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: Justice",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T13": {
+    "id": "T13",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Hanged Man",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T14": {
+    "id": "T14",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: Death",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T15": {
+    "id": "T15",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: Temperance",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T16": {
+    "id": "T16",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Tower",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T17": {
+    "id": "T17",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Star",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T18": {
+    "id": "T18",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Moon",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T19": {
+    "id": "T19",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The Sun",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T20",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T20": {
+    "id": "T20",
+    "journalId": null,
+    "type": "T",
+    "title": "Fool on the Hill: The World",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T01–T19",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T21": {
+    "id": "T21",
+    "journalId": null,
+    "type": "T",
+    "title": "Tomorrow Never Knows: King of Cups",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T22–T24; available during PL01",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T22": {
+    "id": "T22",
+    "journalId": null,
+    "type": "T",
+    "title": "Tomorrow Never Knows: King of Pentacles",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T21–T24",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T23": {
+    "id": "T23",
+    "journalId": null,
+    "type": "T",
+    "title": "Tomorrow Never Knows: King of Swords",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T21–T24",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "T24": {
+    "id": "T24",
+    "journalId": null,
+    "type": "T",
+    "title": "Tomorrow Never Knows: King of Wands",
+    "giver": "Misty Olszewski",
+    "rewards": [],
+    "reqText": "`=` T21–T23",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": false,
+    "during": null
+  },
+  "IC01": {
+    "id": "IC01",
+    "journalId": null,
+    "type": "IC",
+    "title": "Increased Criminal Activity (Kress Street)",
+    "giver": "(Dogtown)",
+    "rewards": [
+      {
+        "name": "Raiju",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Boss Ross Ulmer's cache."
+      }
+    ],
+    "reqText": "`=` IC02, IC03; repeatable",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  },
+  "IC02": {
+    "id": "IC02",
+    "journalId": null,
+    "type": "IC",
+    "title": "Increased Criminal Activity (Luxor High Wellness Spa)",
+    "giver": "(Dogtown)",
+    "rewards": [
+      {
+        "name": "Agaou",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from boss Ayo Zarin."
+      }
+    ],
+    "reqText": "`=` IC01, IC03; repeatable",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  },
+  "IC03": {
+    "id": "IC03",
+    "journalId": null,
+    "type": "IC",
+    "title": "Increased Criminal Activity (Terra Cognita)",
+    "giver": "(Dogtown)",
+    "rewards": [
+      {
+        "name": "Sparky",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Final container cache after defeating boss drone."
+      }
+    ],
+    "reqText": "`=` IC01, IC02; repeatable",
+    "unlocksRaw": "—",
+    "ponr": false,
+    "repeatable": true,
+    "during": null
+  }
+}
