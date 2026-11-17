@@ -1071,7 +1071,7 @@
       }
     ],
     "reqText": "—",
-    "unlocksRaw": "`[!]` PL11, G76, S104, PL15, S106",
+    "unlocksRaw": "`[!]` PL11, `[!]` PL15, G76, S104, S106",
     "ponr": false,
     "repeatable": false,
     "during": null
@@ -3237,7 +3237,7 @@
         "note": "3-piece suit provided by Mr. Hands."
       }
     ],
-    "reqText": "From PL10 `[!]`",
+    "reqText": "From PL10 (any choice)",
     "unlocksRaw": "G77",
     "ponr": false,
     "repeatable": false,
@@ -3275,7 +3275,7 @@
         "missable": false
       }
     ],
-    "reqText": "From PL10 `[!]`",
+    "reqText": "From PL10 (any choice; eavesdrop in PL09)",
     "unlocksRaw": "—",
     "ponr": false,
     "repeatable": false,
@@ -4696,7 +4696,7 @@
         "note": "Nighthawks Rehabilitation Center storage/shooting range room."
       }
     ],
-    "reqText": "From PL10 `[!]`",
+    "reqText": "From PL10 (any choice)",
     "unlocksRaw": "S102",
     "ponr": false,
     "repeatable": false,

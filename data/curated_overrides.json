@@ -1,4 +1,162 @@
 {
+  "_edges": {
+    "M08->S12": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Side w/ Meredith",
+      "condition": "Meet Meredith Stout before All Foods, pay with her spiked credchip (or side with Militech), and flirt via text afterward."
+    },
+    "M10->S34": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Body to Family/Vik",
+      "condition": "Tell Delamain to send Jackie's body to his family (or Viktor, though only Mama Welles unlocks the full Ofrenda & rewards)."
+    },
+    "M30->M31": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Trust Hanako",
+      "condition": "Accept Hanako Arasaka's offer on the Misty rooftop (replayable via 'One More Gig' after credits)."
+    },
+    "M30->M34": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Call Panam",
+      "condition": "Call Panam & ask the Aldecaldos for help on the rooftop (requires completing S59 Queen of the Highway)."
+    },
+    "M30->M38": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Let Johnny/Rogue lead",
+      "condition": "Take the Pseudoendotrizine and let Johnny & Rogue storm Arasaka Tower (requires completing S72 Blistering Love)."
+    },
+    "M30->M40": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Secret: Solo",
+      "condition": "Wait ~5 minutes on the rooftop with Johnny without picking an option; requires specific dialogue choices in S69 Chippin' In at the oil fields ('Nah, fucked that up too', 'What do you want from me?', 'OK. But as second chances go, this is your last.')."
+    },
+    "M30->E02": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Suicide",
+      "condition": "Choose to end it on the rooftop ('Could also just put all this to rest...')."
+    },
+    "PL10->PL11": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Side w/ Reed",
+      "condition": "CRITICAL SPLIT: Help Solomon Reed capture Songbird during Firestarter (permanently locks out PL15 The Killing Moon)."
+    },
+    "PL10->PL15": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Side w/ Songbird",
+      "condition": "CRITICAL SPLIT: Help Songbird escape during Firestarter (permanently locks out PL11 Black Steel in the Hour of Chaos)."
+    },
+    "PL10->G76": {
+      "kind": "unlock",
+      "exclusive": false,
+      "label": "",
+      "condition": "Unlocks after Firestarter regardless of whether you side with Reed or Songbird (Kurt Hansen dies in both paths)."
+    },
+    "PL10->S104": {
+      "kind": "unlock",
+      "exclusive": false,
+      "label": "",
+      "condition": "Unlocks after Firestarter regardless of whether you side with Reed or Songbird."
+    },
+    "PL10->S106": {
+      "kind": "unlock",
+      "exclusive": false,
+      "label": "",
+      "condition": "Unlocks after Firestarter (any choice) if you eavesdropped on all 3 dialogues of Hansen's associates in PL09."
+    },
+    "PL13->PLE01": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Kill Songbird",
+      "condition": "CRITICAL SPLIT: Grant Songbird's final request and unplug her in Cynosure (locks out PLE02 & PL18 The Tower ending)."
+    },
+    "PL13->PLE02": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Spare Songbird",
+      "condition": "CRITICAL SPLIT: Refuse Songbird's request and hand her over alive to Solomon Reed (unlocks PL14 & PL18 The Tower ending)."
+    },
+    "PL15->PLE03": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Hand to Reed",
+      "condition": "CRITICAL SPLIT: Call Reed and hand Songbird over to the FIA at the spaceport (unlocks PL16 & PL18 The Tower ending)."
+    },
+    "PL15->PLE04": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Send to Moon",
+      "condition": "CRITICAL SPLIT: Confront/kill Solomon Reed and put Songbird on the shuttle to the Moon (unlocks PL17 & PL19)."
+    },
+    "PL09->S101": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Download Blind_n_Dead",
+      "condition": "Download the 'Blind_n_Dead' file from the terminal in Slider's hideout/garage during PL09."
+    },
+    "PL12->S103": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Loot Behavioral Spec",
+      "condition": "Loot the Behavioral System Component from the Cerberus unit and either the Erebus or Militech Canto Mk.6 spec in Cynosure."
+    },
+    "S76->S80": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Support Us Cracks",
+      "condition": "Resolve the confrontation between Kerry and Us Cracks peacefully in S76."
+    },
+    "G70->S124": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Spare Alan Noël",
+      "condition": "Spare NetWatch agent Alan Noël during Gig: Treating Symptoms."
+    },
+    "G71->S95": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Spare Rinder",
+      "condition": "Spare Leon Rinder in exchange for his stash coordinates during Gig: The Man Who Killed Jason Foreman."
+    },
+    "G73->S107": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Spare Katya",
+      "condition": "Accept Katya Karelina's deal and spare her during Gig: Spy in the Jungle."
+    },
+    "G73->S108": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Complete G73",
+      "condition": "Follow-up from Steven Santos after Gig: Spy in the Jungle."
+    },
+    "G73->S125": {
+      "kind": "choice",
+      "exclusive": false,
+      "label": "Loot Katya's Shard",
+      "condition": "Read/collect Katya's data shard during or after Gig: Spy in the Jungle."
+    },
+    "G74->S96": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Free Hasan",
+      "condition": "Call Mr. Hands and convince him to let Hasan go during Gig: Prototype in the Scraper."
+    },
+    "G76->S102": {
+      "kind": "choice",
+      "exclusive": true,
+      "label": "Spare Nele",
+      "condition": "Allow Nele Springer to go free (or resolve peacefully) during Gig: Roads to Redemption."
+    }
+  },
   "M08": {
     "rewards": [
       { "name": "Chaos", "method": "npc_drop", "missable": true, "note": "Looted from Royce if you fight him; mutually exclusive with Doom Doom (S73)." }

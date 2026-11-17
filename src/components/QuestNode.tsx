@@ -19,14 +19,33 @@ const TYPE_COLORS: Record<QuestType, string> = {
 };
 
 function QuestNodeComponent({ data, selected }: NodeProps<Node<FlowQuestNodeData>>) {
-  const { quest, done, doneIconicsCount, hasChoiceBranch, hasChoiceRequirement, onToggleDone } = data;
+  const {
+    quest,
+    done,
+    doneIconicsCount,
+    hasChoiceBranch,
+    hasExclusiveBranch,
+    hasChoiceRequirement,
+    incomingChoiceLabels,
+    isPrerequisite,
+    isDimmed,
+    onToggleDone,
+  } = data;
   const accent = TYPE_COLORS[quest.type] ?? '#94a3b8';
   const totalRewards = quest.rewards.length;
   const hasMissable = quest.rewards.some((r) => r.missable);
 
   return (
     <div
-      className={`quest-node ${done ? 'quest-node--done' : ''} ${selected ? 'quest-node--selected' : ''}`}
+      className={[
+        'quest-node',
+        done ? 'quest-node--done' : '',
+        selected ? 'quest-node--selected' : '',
+        isPrerequisite ? 'quest-node--prereq' : '',
+        isDimmed ? 'quest-node--dimmed' : '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
       style={{ '--type-accent': accent } as React.CSSProperties}
     >
       <Handle type="target" position={Position.Left} className="quest-handle" />
@@ -56,17 +75,26 @@ function QuestNodeComponent({ data, selected }: NodeProps<Node<FlowQuestNodeData
       </div>
 
       <div className="quest-node__badges">
-        {(hasChoiceBranch || hasChoiceRequirement) && (
+        {hasChoiceBranch && (
           <span
             className="badge badge--choice"
             title={
-              hasChoiceBranch
-                ? 'Dialogue/story choice splits into different quest outcomes'
-                : 'Outcome depends on prior dialogue/story choices'
+              hasExclusiveBranch
+                ? 'Critical split: choosing one branch permanently locks out the other'
+                : 'Choices in this quest lead to different outcomes'
             }
           >
             <GitBranch size={11} />
-            {hasChoiceBranch ? '[!] Choice Split' : 'Choice Outcome'}
+            {hasExclusiveBranch ? '[!] Critical Split' : '[!] Choice Outcomes'}
+          </span>
+        )}
+        {!hasChoiceBranch && hasChoiceRequirement && (
+          <span
+            className="badge badge--choice"
+            title="Requires specific dialogue or story choices in a prior quest"
+          >
+            <GitBranch size={11} />
+            {incomingChoiceLabels.length > 0 ? incomingChoiceLabels[0] : 'Choice Outcome'}
           </span>
         )}
         {quest.ponr && (

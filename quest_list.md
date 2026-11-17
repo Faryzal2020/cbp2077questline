@@ -64,7 +64,7 @@
 | PL07 | PL | You Know My Name | Solomon Reed | Rasetsu | — | PL08 |
 | PL08 | PL | Birds With Broken Wings | Solomon Reed | NDI Osprey | — | PL09 |
 | PL09 | PL | I've Seen That Face Before | Solomon Reed | Behavioral Imprint-synced Faceplate | — | PL10, S101 |
-| PL10 | PL | Firestarter | Alex | Bald Eagle, Wild Dog, Fang or Murphy's Law | — | `[!]` PL11, G76, S104, PL15, S106 |
+| PL10 | PL | Firestarter | Alex | Bald Eagle, Wild Dog, Fang or Murphy's Law | — | `[!]` PL11, `[!]` PL15, G76, S104, S106 |
 | PL11 | PL | Black Steel in the Hour of Chaos | Solomon Reed | — | From PL10 `[!]` | PL12 |
 | PL12 | PL | Somewhat Damaged | Songbird | Crowbar, Erebus or Militech Canto Mk.6 (spec) | — | PL13, S103 |
 | PL13 | PL | Leave in Silence | Solomon Reed | — | — | `[!]` PLE01, PLE02 |
@@ -193,9 +193,9 @@
 | S101 | S | Voodoo Treasure | Aurore Cassel | Rook | Req choices in PL09 | — |
 | S102 | S | One Way or Another | Nele Springer | — | Req choices in G76 | — |
 | S103 | S | This Corrosion | Yoko Tsuru | Erebus or Militech Canto Mk.6 (crafted from PL12 spec) | Req choices in PL12 | — |
-| S104 | S | Run This Town | Aguilar Nubiola | Mancinella, Aguilar's Suit | From PL10 `[!]` | G77 |
+| S104 | S | Run This Town | Aguilar Nubiola | Mancinella, Aguilar's Suit | From PL10 (any choice) | G77 |
 | S105 | S | Hi Ho Silver Lining | Mr. Hands | Quadra Sport R-7 "Sterling" | Req all Mr. Hands Gigs | — |
-| S106 | S | Moving Heat | Ashlay | Quadra Sport R-7 "Charon" | From PL10 `[!]` | — |
+| S106 | S | Moving Heat | Ashlay | Quadra Sport R-7 "Charon" | From PL10 (any choice; eavesdrop in PL09) | — |
 | S107 | S | Money for Nothing | Katya Karelina | — | Req choices in G73 | — |
 | S108 | S | The Show Must Go On | Steven Santos | — | Req choices in G73 | — |
 | S109 | S | Ezekiel Saw the Wheel | (Arroyo) | — | Req M11 | — |
@@ -295,7 +295,7 @@
 | G73 | G | Gig: Spy in the Jungle | Mr. Hands | Pizdets | — | S107, S108 |
 | G74 | G | Gig: Prototype in the Scraper | Mr. Hands | — | — | S96 |
 | G75 | G | Gig: Waiting for Dodger | Mr. Hands | Rosco, Volkodav | — | S97 |
-| G76 | G | Gig: Roads to Redemption | Mr. Hands | Hercules 3AX | From PL10 `[!]` | S102 |
+| G76 | G | Gig: Roads to Redemption | Mr. Hands | Hercules 3AX | From PL10 (any choice) | S102 |
 | G77 | G | Gig: Heaviest of Hearts | Mr. Hands | Crimestopper | — | S105 |
 | CP01 | CP | Cyberpsycho Sighting: Demons of War | Regina Jones | — | From S08 | — |
 | CP02 | CP | Cyberpsycho Sighting: Where the Bodies Hit the Floor | Regina Jones | — | From S08 | — |

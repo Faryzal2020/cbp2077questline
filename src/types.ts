@@ -53,6 +53,8 @@ export interface QuestEdgeData {
   target: string;
   kind: EdgeKind;
   label: string;
+  exclusive?: boolean;
+  condition?: string;
 }
 
 export interface QuestGraphPayload {

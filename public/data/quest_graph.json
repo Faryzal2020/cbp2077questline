@@ -1,7 +1,7 @@
 {
   "meta": {
     "totalNodes": 336,
-    "totalEdges": 443,
+    "totalEdges": 444,
     "excludedTypes": [
       "N"
     ]
@@ -4916,7 +4916,7 @@
           "note": "3-piece suit provided by Mr. Hands."
         }
       ],
-      "reqText": "From PL10 `[!]`",
+      "reqText": "From PL10 (any choice)",
       "ponr": false,
       "repeatable": false,
       "during": null,
@@ -4964,7 +4964,7 @@
           "missable": false
         }
       ],
-      "reqText": "From PL10 `[!]`",
+      "reqText": "From PL10 (any choice; eavesdrop in PL09)",
       "ponr": false,
       "repeatable": false,
       "during": null,
@@ -12887,7 +12887,7 @@
           "note": "Nighthawks Rehabilitation Center storage/shooting range room."
         }
       ],
-      "reqText": "From PL10 `[!]`",
+      "reqText": "From PL10 (any choice)",
       "ponr": false,
       "repeatable": false,
       "during": null,
@@ -14576,3101 +14576,3578 @@
       "source": "M01",
       "target": "M04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M02->M04:unlock",
       "source": "M02",
       "target": "M04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M03->M04:unlock",
       "source": "M03",
       "target": "M04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M04->M05:unlock",
       "source": "M04",
       "target": "M05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->M06:unlock",
       "source": "M05",
       "target": "M06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S01:unlock",
       "source": "M05",
       "target": "S01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S02:unlock",
       "source": "M05",
       "target": "S02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S03:unlock",
       "source": "M05",
       "target": "S03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S04:unlock",
       "source": "M05",
       "target": "S04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S05:unlock",
       "source": "M05",
       "target": "S05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G01:unlock",
       "source": "M05",
       "target": "G01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G02:unlock",
       "source": "M05",
       "target": "G02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G03:unlock",
       "source": "M05",
       "target": "G03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G04:unlock",
       "source": "M05",
       "target": "G04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G05:unlock",
       "source": "M05",
       "target": "G05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G06:unlock",
       "source": "M05",
       "target": "G06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G07:unlock",
       "source": "M05",
       "target": "G07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G08:unlock",
       "source": "M05",
       "target": "G08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G09:unlock",
       "source": "M05",
       "target": "G09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G10:unlock",
       "source": "M05",
       "target": "G10",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G11:unlock",
       "source": "M05",
       "target": "G11",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G12:unlock",
       "source": "M05",
       "target": "G12",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G13:unlock",
       "source": "M05",
       "target": "G13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G14:unlock",
       "source": "M05",
       "target": "G14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G15:unlock",
       "source": "M05",
       "target": "G15",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G16:unlock",
       "source": "M05",
       "target": "G16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G17:unlock",
       "source": "M05",
       "target": "G17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G18:unlock",
       "source": "M05",
       "target": "G18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G19:unlock",
       "source": "M05",
       "target": "G19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G20:unlock",
       "source": "M05",
       "target": "G20",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G21:unlock",
       "source": "M05",
       "target": "G21",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G22:unlock",
       "source": "M05",
       "target": "G22",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->G23:unlock",
       "source": "M05",
       "target": "G23",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M06->M07:unlock",
       "source": "M06",
       "target": "M07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M06->S06:unlock",
       "source": "M06",
       "target": "S06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M06->S07:unlock",
       "source": "M06",
       "target": "S07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M06->S08:unlock",
       "source": "M06",
       "target": "S08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M07->M08:unlock",
       "source": "M07",
       "target": "M08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M07->M09:unlock",
       "source": "M07",
       "target": "M09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M07->S09:unlock",
       "source": "M07",
       "target": "S09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M07->S10:unlock",
       "source": "M07",
       "target": "S10",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M07->S11:unlock",
       "source": "M07",
       "target": "S11",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "M08->S12:unlock",
+      "id": "M08->S12:choice",
       "source": "M08",
       "target": "S12",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Side w/ Meredith",
+      "exclusive": true,
+      "condition": "Meet Meredith Stout before All Foods, pay with her spiked credchip (or side with Militech), and flirt via text afterward."
     },
     {
       "id": "M08->M10:and",
       "source": "M08",
       "target": "M10",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M08->M09:and",
       "source": "M08",
       "target": "M09",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M09->M10:and",
       "source": "M09",
       "target": "M10",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M09->M08:and",
       "source": "M09",
       "target": "M08",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M10->M11:unlock",
       "source": "M10",
       "target": "M11",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->M12:unlock",
       "source": "M11",
       "target": "M12",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->M15:unlock",
       "source": "M11",
       "target": "M15",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S13:unlock",
       "source": "M11",
       "target": "S13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S14:unlock",
       "source": "M11",
       "target": "S14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S15:unlock",
       "source": "M11",
       "target": "S15",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S16:unlock",
       "source": "M11",
       "target": "S16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S17:unlock",
       "source": "M11",
       "target": "S17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S18:unlock",
       "source": "M11",
       "target": "S18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S19:unlock",
       "source": "M11",
       "target": "S19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S20:unlock",
       "source": "M11",
       "target": "S20",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S21:unlock",
       "source": "M11",
       "target": "S21",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S22:unlock",
       "source": "M11",
       "target": "S22",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S23:unlock",
       "source": "M11",
       "target": "S23",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S24:unlock",
       "source": "M11",
       "target": "S24",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S25:unlock",
       "source": "M11",
       "target": "S25",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S26:unlock",
       "source": "M11",
       "target": "S26",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S26b:unlock",
       "source": "M11",
       "target": "S26b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S63:unlock",
       "source": "M11",
       "target": "S63",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S64:unlock",
       "source": "M11",
       "target": "S64",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S65:unlock",
       "source": "M11",
       "target": "S65",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S66:unlock",
       "source": "M11",
       "target": "S66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP07:unlock",
       "source": "M11",
       "target": "CP07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP08:unlock",
       "source": "M11",
       "target": "CP08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP09:unlock",
       "source": "M11",
       "target": "CP09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP10:unlock",
       "source": "M11",
       "target": "CP10",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP11:unlock",
       "source": "M11",
       "target": "CP11",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP12:unlock",
       "source": "M11",
       "target": "CP12",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP13:unlock",
       "source": "M11",
       "target": "CP13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP14:unlock",
       "source": "M11",
       "target": "CP14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->CP15:unlock",
       "source": "M11",
       "target": "CP15",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->M13:unlock",
       "source": "M12",
       "target": "M13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->S14:unlock",
       "source": "M12",
       "target": "S14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->S16:unlock",
       "source": "M12",
       "target": "S16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->S18:unlock",
       "source": "M12",
       "target": "S18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->S23:unlock",
       "source": "M12",
       "target": "S23",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->S24:unlock",
       "source": "M12",
       "target": "S24",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->G65b:unlock",
       "source": "M12",
       "target": "G65b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->G66:unlock",
       "source": "M12",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->G67:unlock",
       "source": "M12",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M12->G68:unlock",
       "source": "M12",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M13->M14:and",
       "source": "M13",
       "target": "M14",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M13->M17:and",
       "source": "M13",
       "target": "M17",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M14->M14b:unlock",
       "source": "M14",
       "target": "M14b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M17->M14:and",
       "source": "M17",
       "target": "M14",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M14b->S50:unlock",
       "source": "M14b",
       "target": "S50",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M14b->S54:unlock",
       "source": "M14b",
       "target": "S54",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M14b->S57:unlock",
       "source": "M14b",
       "target": "S57",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M14b->CP16:unlock",
       "source": "M14b",
       "target": "CP16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M14b->S69:and",
       "source": "M14b",
       "target": "S69",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M14b->M20:and",
       "source": "M14b",
       "target": "M20",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M14b->S70:and",
       "source": "M14b",
       "target": "S70",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M14b->M30:and",
       "source": "M14b",
       "target": "M30",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M15->M16:unlock",
       "source": "M15",
       "target": "M16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->M21:unlock",
       "source": "M15",
       "target": "M21",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S27:unlock",
       "source": "M15",
       "target": "S27",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S31:unlock",
       "source": "M15",
       "target": "S31",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S34:unlock",
       "source": "M15",
       "target": "S34",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S36:unlock",
       "source": "M15",
       "target": "S36",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S37:unlock",
       "source": "M15",
       "target": "S37",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S38:unlock",
       "source": "M15",
       "target": "S38",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S39:unlock",
       "source": "M15",
       "target": "S39",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S40:unlock",
       "source": "M15",
       "target": "S40",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->CP06:unlock",
       "source": "M15",
       "target": "CP06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T01:unlock",
       "source": "M15",
       "target": "T01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T02:unlock",
       "source": "M15",
       "target": "T02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T03:unlock",
       "source": "M15",
       "target": "T03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T04:unlock",
       "source": "M15",
       "target": "T04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T05:unlock",
       "source": "M15",
       "target": "T05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T06:unlock",
       "source": "M15",
       "target": "T06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T07:unlock",
       "source": "M15",
       "target": "T07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T08:unlock",
       "source": "M15",
       "target": "T08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T09:unlock",
       "source": "M15",
       "target": "T09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T10:unlock",
       "source": "M15",
       "target": "T10",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T11:unlock",
       "source": "M15",
       "target": "T11",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T12:unlock",
       "source": "M15",
       "target": "T12",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T13:unlock",
       "source": "M15",
       "target": "T13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T14:unlock",
       "source": "M15",
       "target": "T14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T15:unlock",
       "source": "M15",
       "target": "T15",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T16:unlock",
       "source": "M15",
       "target": "T16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T17:unlock",
       "source": "M15",
       "target": "T17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T18:unlock",
       "source": "M15",
       "target": "T18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T19:unlock",
       "source": "M15",
       "target": "T19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->T20:unlock",
       "source": "M15",
       "target": "T20",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M16->M17:unlock",
       "source": "M16",
       "target": "M17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M17->M18:unlock",
       "source": "M17",
       "target": "M18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M17->M13:and",
       "source": "M17",
       "target": "M13",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M18->M19:unlock",
       "source": "M18",
       "target": "M19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M19->M20:unlock",
       "source": "M19",
       "target": "M20",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M20->S69:and",
       "source": "M20",
       "target": "S69",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M20->M14b:and",
       "source": "M20",
       "target": "M14b",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M20->S70:and",
       "source": "M20",
       "target": "S70",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M20->M30:and",
       "source": "M20",
       "target": "M30",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M21->M22:unlock",
       "source": "M21",
       "target": "M22",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M22->M23:unlock",
       "source": "M22",
       "target": "M23",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M23->M24:unlock",
       "source": "M23",
       "target": "M24",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M24->M25:unlock",
       "source": "M24",
       "target": "M25",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M25->M26:unlock",
       "source": "M25",
       "target": "M26",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M25->S81:unlock",
       "source": "M25",
       "target": "S81",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M25->S87:unlock",
       "source": "M25",
       "target": "S87",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M25->S88:unlock",
       "source": "M25",
       "target": "S88",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M26->M27:unlock",
       "source": "M26",
       "target": "M27",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M27->M28:unlock",
       "source": "M27",
       "target": "M28",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M28->M29:unlock",
       "source": "M28",
       "target": "M29",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M28->MI01:during",
       "source": "M28",
       "target": "MI01",
       "kind": "during",
-      "label": "during"
+      "label": "during",
+      "exclusive": false
     },
     {
       "id": "M28->MI01:unlock",
       "source": "M28",
       "target": "MI01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M29->PL01:unlock",
       "source": "M29",
       "target": "PL01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M29->S85:unlock",
       "source": "M29",
       "target": "S85",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M29->S86:unlock",
       "source": "M29",
       "target": "S86",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M29->CP17:unlock",
       "source": "M29",
       "target": "CP17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M29->M30:and",
       "source": "M29",
       "target": "M30",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M29->M14b:and",
       "source": "M29",
       "target": "M14b",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M29->M20:and",
       "source": "M29",
       "target": "M20",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M30->M31:choice",
       "source": "M30",
       "target": "M31",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Trust Hanako",
+      "exclusive": false,
+      "condition": "Accept Hanako Arasaka's offer on the Misty rooftop (replayable via 'One More Gig' after credits)."
     },
     {
       "id": "M30->M34:choice",
       "source": "M30",
       "target": "M34",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Call Panam",
+      "exclusive": false,
+      "condition": "Call Panam & ask the Aldecaldos for help on the rooftop (requires completing S59 Queen of the Highway)."
     },
     {
       "id": "M30->M38:choice",
       "source": "M30",
       "target": "M38",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Let Johnny/Rogue lead",
+      "exclusive": false,
+      "condition": "Take the Pseudoendotrizine and let Johnny & Rogue storm Arasaka Tower (requires completing S72 Blistering Love)."
     },
     {
       "id": "M30->M40:choice",
       "source": "M30",
       "target": "M40",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Secret: Solo",
+      "exclusive": false,
+      "condition": "Wait ~5 minutes on the rooftop with Johnny without picking an option; requires specific dialogue choices in S69 Chippin' In at the oil fields ('Nah, fucked that up too', 'What do you want from me?', 'OK. But as second chances go, this is your last.')."
     },
     {
       "id": "M30->E02:choice",
       "source": "M30",
       "target": "E02",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Suicide",
+      "exclusive": false,
+      "condition": "Choose to end it on the rooftop ('Could also just put all this to rest...')."
     },
     {
       "id": "M31->M32:unlock",
       "source": "M31",
       "target": "M32",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M32->M33:unlock",
       "source": "M32",
       "target": "M33",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M33->E01:unlock",
       "source": "M33",
       "target": "E01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M34->M35:unlock",
       "source": "M34",
       "target": "M35",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S59->M34:choice",
       "source": "S59",
       "target": "M34",
       "kind": "choice",
-      "label": "[!]"
+      "label": "[!]",
+      "exclusive": false
     },
     {
       "id": "M35->M36:unlock",
       "source": "M35",
       "target": "M36",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M36->M37:unlock",
       "source": "M36",
       "target": "M37",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M37->M41:and",
       "source": "M37",
       "target": "M41",
       "kind": "and",
-      "label": "[+]"
+      "label": "[+]",
+      "exclusive": false
     },
     {
       "id": "M37->M42:unlock",
       "source": "M37",
       "target": "M42",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M37->M43:unlock",
       "source": "M37",
       "target": "M43",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M38->M39:unlock",
       "source": "M38",
       "target": "M39",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S72->M38:choice",
       "source": "S72",
       "target": "M38",
       "kind": "choice",
-      "label": "[!]"
+      "label": "[!]",
+      "exclusive": false
     },
     {
       "id": "M39->M37:unlock",
       "source": "M39",
       "target": "M37",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M40->M37:unlock",
       "source": "M40",
       "target": "M37",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S72->M40:choice",
       "source": "S72",
       "target": "M40",
       "kind": "choice",
-      "label": "[!]"
+      "label": "[!]",
+      "exclusive": false
     },
     {
       "id": "S69->M40:choice",
       "source": "S69",
       "target": "M40",
       "kind": "choice",
-      "label": "[!]"
+      "label": "[!]",
+      "exclusive": false
     },
     {
       "id": "M41->E03:unlock",
       "source": "M41",
       "target": "E03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M34->M41:unlock",
       "source": "M34",
       "target": "M41",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M42->E04:unlock",
       "source": "M42",
       "target": "E04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M43->E05:unlock",
       "source": "M43",
       "target": "E05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M38->M43:unlock",
       "source": "M38",
       "target": "M43",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M40->M43:unlock",
       "source": "M40",
       "target": "M43",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL01->PL02:unlock",
       "source": "PL01",
       "target": "PL02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL02->PL03:unlock",
       "source": "PL02",
       "target": "PL03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->PL04:unlock",
       "source": "PL03",
       "target": "PL04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->G69:unlock",
       "source": "PL03",
       "target": "G69",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->G70:unlock",
       "source": "PL03",
       "target": "G70",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->G74:unlock",
       "source": "PL03",
       "target": "G74",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->G75:unlock",
       "source": "PL03",
       "target": "G75",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->S98:unlock",
       "source": "PL03",
       "target": "S98",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->S98b:unlock",
       "source": "PL03",
       "target": "S98b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->S99:unlock",
       "source": "PL03",
       "target": "S99",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->IC01:unlock",
       "source": "PL03",
       "target": "IC01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->IC02:unlock",
       "source": "PL03",
       "target": "IC02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->IC03:unlock",
       "source": "PL03",
       "target": "IC03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->T21:unlock",
       "source": "PL03",
       "target": "T21",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->T22:unlock",
       "source": "PL03",
       "target": "T22",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->T23:unlock",
       "source": "PL03",
       "target": "T23",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL03->T24:unlock",
       "source": "PL03",
       "target": "T24",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL04->PL05:unlock",
       "source": "PL04",
       "target": "PL05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL05->PL06:unlock",
       "source": "PL05",
       "target": "PL06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL06->PL07:unlock",
       "source": "PL06",
       "target": "PL07",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL06->S93:unlock",
       "source": "PL06",
       "target": "S93",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL06->S94:unlock",
       "source": "PL06",
       "target": "S94",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL07->PL08:unlock",
       "source": "PL07",
       "target": "PL08",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL08->PL09:unlock",
       "source": "PL08",
       "target": "PL09",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL09->PL10:unlock",
       "source": "PL09",
       "target": "PL10",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "PL09->S101:unlock",
+      "id": "PL09->S101:choice",
       "source": "PL09",
       "target": "S101",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Download Blind_n_Dead",
+      "exclusive": false,
+      "condition": "Download the 'Blind_n_Dead' file from the terminal in Slider's hideout/garage during PL09."
     },
     {
       "id": "PL10->PL11:choice",
       "source": "PL10",
       "target": "PL11",
       "kind": "choice",
-      "label": "[!]"
-    },
-    {
-      "id": "PL10->G76:choice",
-      "source": "PL10",
-      "target": "G76",
-      "kind": "choice",
-      "label": "[!]"
-    },
-    {
-      "id": "PL10->S104:choice",
-      "source": "PL10",
-      "target": "S104",
-      "kind": "choice",
-      "label": "[!]"
+      "label": "Side w/ Reed",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Help Solomon Reed capture Songbird during Firestarter (permanently locks out PL15 The Killing Moon)."
     },
     {
       "id": "PL10->PL15:choice",
       "source": "PL10",
       "target": "PL15",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Side w/ Songbird",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Help Songbird escape during Firestarter (permanently locks out PL11 Black Steel in the Hour of Chaos)."
     },
     {
-      "id": "PL10->S106:choice",
+      "id": "PL10->G76:unlock",
+      "source": "PL10",
+      "target": "G76",
+      "kind": "unlock",
+      "label": "",
+      "exclusive": false,
+      "condition": "Unlocks after Firestarter regardless of whether you side with Reed or Songbird (Kurt Hansen dies in both paths)."
+    },
+    {
+      "id": "PL10->S104:unlock",
+      "source": "PL10",
+      "target": "S104",
+      "kind": "unlock",
+      "label": "",
+      "exclusive": false,
+      "condition": "Unlocks after Firestarter regardless of whether you side with Reed or Songbird."
+    },
+    {
+      "id": "PL10->S106:unlock",
       "source": "PL10",
       "target": "S106",
-      "kind": "choice",
-      "label": "[!]"
+      "kind": "unlock",
+      "label": "",
+      "exclusive": false,
+      "condition": "Unlocks after Firestarter (any choice) if you eavesdropped on all 3 dialogues of Hansen's associates in PL09."
     },
     {
       "id": "PL11->PL12:unlock",
       "source": "PL11",
       "target": "PL12",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL12->PL13:unlock",
       "source": "PL12",
       "target": "PL13",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "PL12->S103:unlock",
+      "id": "PL12->S103:choice",
       "source": "PL12",
       "target": "S103",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Loot Behavioral Spec",
+      "exclusive": false,
+      "condition": "Loot the Behavioral System Component from the Cerberus unit and either the Erebus or Militech Canto Mk.6 spec in Cynosure."
     },
     {
       "id": "PL13->PLE01:choice",
       "source": "PL13",
       "target": "PLE01",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Kill Songbird",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Grant Songbird's final request and unplug her in Cynosure (locks out PLE02 & PL18 The Tower ending)."
     },
     {
       "id": "PL13->PLE02:choice",
       "source": "PL13",
       "target": "PLE02",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Spare Songbird",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Refuse Songbird's request and hand her over alive to Solomon Reed (unlocks PL14 & PL18 The Tower ending)."
     },
     {
       "id": "PL12->PLE01:unlock",
       "source": "PL12",
       "target": "PLE01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PLE02->PL14:unlock",
       "source": "PLE02",
       "target": "PL14",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL12->PLE02:unlock",
       "source": "PL12",
       "target": "PLE02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL14->PL18:unlock",
       "source": "PL14",
       "target": "PL18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL15->PLE03:choice",
       "source": "PL15",
       "target": "PLE03",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Hand to Reed",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Call Reed and hand Songbird over to the FIA at the spaceport (unlocks PL16 & PL18 The Tower ending)."
     },
     {
       "id": "PL15->PLE04:choice",
       "source": "PL15",
       "target": "PLE04",
       "kind": "choice",
-      "label": "[!]"
+      "label": "Send to Moon",
+      "exclusive": true,
+      "condition": "CRITICAL SPLIT: Confront/kill Solomon Reed and put Songbird on the shuttle to the Moon (unlocks PL17 & PL19)."
     },
     {
       "id": "PLE03->PL16:unlock",
       "source": "PLE03",
       "target": "PL16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL16->PL18:unlock",
       "source": "PL16",
       "target": "PL18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PLE04->PL17:unlock",
       "source": "PLE04",
       "target": "PL17",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL17->PL19:unlock",
       "source": "PL17",
       "target": "PL19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL18->PL20:unlock",
       "source": "PL18",
       "target": "PL20",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PLE02->PL18:unlock",
       "source": "PLE02",
       "target": "PL18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PLE03->PL18:unlock",
       "source": "PLE03",
       "target": "PL18",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL20->E06:unlock",
       "source": "PL20",
       "target": "E06",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S08->CP01:unlock",
       "source": "S08",
       "target": "CP01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S08->CP02:unlock",
       "source": "S08",
       "target": "CP02",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S08->CP03:unlock",
       "source": "S08",
       "target": "CP03",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S08->CP04:unlock",
       "source": "S08",
       "target": "CP04",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S08->CP05:unlock",
       "source": "S08",
       "target": "CP05",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M01->S16:unlock",
       "source": "M01",
       "target": "S16",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S18->S19:unlock",
       "source": "S18",
       "target": "S19",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S27->S28:unlock",
       "source": "S27",
       "target": "S28",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S28->S29:unlock",
       "source": "S28",
       "target": "S29",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S29->S30:unlock",
       "source": "S29",
       "target": "S30",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S31->S32:unlock",
       "source": "S31",
       "target": "S32",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S32->S33:unlock",
       "source": "S32",
       "target": "S33",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S34->S35:unlock",
       "source": "S34",
       "target": "S35",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "M10->S34:unlock",
+      "id": "M10->S34:choice",
       "source": "M10",
       "target": "S34",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Body to Family/Vik",
+      "exclusive": true,
+      "condition": "Tell Delamain to send Jackie's body to his family (or Viktor, though only Mama Welles unlocks the full Ofrenda & rewards)."
     },
     {
       "id": "M02->S35:unlock",
       "source": "M02",
       "target": "S35",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M25->S39:unlock",
       "source": "M25",
       "target": "S39",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S40->S41:unlock",
       "source": "S40",
       "target": "S41",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S42:unlock",
       "source": "S41",
       "target": "S42",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S43:unlock",
       "source": "S41",
       "target": "S43",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S44:unlock",
       "source": "S41",
       "target": "S44",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S45:unlock",
       "source": "S41",
       "target": "S45",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S46:unlock",
       "source": "S41",
       "target": "S46",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S47:unlock",
       "source": "S41",
       "target": "S47",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S41->S48:unlock",
       "source": "S41",
       "target": "S48",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S42->S49:unlock",
       "source": "S42",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S43->S49:unlock",
       "source": "S43",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S44->S49:unlock",
       "source": "S44",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S45->S49:unlock",
       "source": "S45",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S46->S49:unlock",
       "source": "S46",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S47->S49:unlock",
       "source": "S47",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S48->S49:unlock",
       "source": "S48",
       "target": "S49",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S50->S51:unlock",
       "source": "S50",
       "target": "S51",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S50->S52:unlock",
       "source": "S50",
       "target": "S52",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S50->S52b:unlock",
       "source": "S50",
       "target": "S52b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S52->S53:unlock",
       "source": "S52",
       "target": "S53",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S54->S55:unlock",
       "source": "S54",
       "target": "S55",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S55->S56:unlock",
       "source": "S55",
       "target": "S56",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S57->S58:unlock",
       "source": "S57",
       "target": "S58",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S58->S59:unlock",
       "source": "S58",
       "target": "S59",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S58->S60:unlock",
       "source": "S58",
       "target": "S60",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S58->S61:unlock",
       "source": "S58",
       "target": "S61",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S59->S62:unlock",
       "source": "S59",
       "target": "S62",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S59->M34:unlock",
       "source": "S59",
       "target": "M34",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S59->S61:unlock",
       "source": "S59",
       "target": "S61",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S63->S66:unlock",
       "source": "S63",
       "target": "S66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S64->S66:unlock",
       "source": "S64",
       "target": "S66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S65->S66:unlock",
       "source": "S65",
       "target": "S66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G60->S67:unlock",
       "source": "G60",
       "target": "S67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G01->S68:unlock",
       "source": "G01",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G02->S68:unlock",
       "source": "G02",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G03->S68:unlock",
       "source": "G03",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G04->S68:unlock",
       "source": "G04",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G05->S68:unlock",
       "source": "G05",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G06->S68:unlock",
       "source": "G06",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G07->S68:unlock",
       "source": "G07",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G08->S68:unlock",
       "source": "G08",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G09->S68:unlock",
       "source": "G09",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G10->S68:unlock",
       "source": "G10",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G11->S68:unlock",
       "source": "G11",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G12->S68:unlock",
       "source": "G12",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G13->S68:unlock",
       "source": "G13",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G14->S68:unlock",
       "source": "G14",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G15->S68:unlock",
       "source": "G15",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G16->S68:unlock",
       "source": "G16",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G17->S68:unlock",
       "source": "G17",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G18->S68:unlock",
       "source": "G18",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G19->S68:unlock",
       "source": "G19",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G20->S68:unlock",
       "source": "G20",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G21->S68:unlock",
       "source": "G21",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G22->S68:unlock",
       "source": "G22",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G23->S68:unlock",
       "source": "G23",
       "target": "S68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G24->S68b:unlock",
       "source": "G24",
       "target": "S68b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G25->S68b:unlock",
       "source": "G25",
       "target": "S68b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G26->S68b:unlock",
       "source": "G26",
       "target": "S68b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G27->S68b:unlock",
       "source": "G27",
       "target": "S68b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G28->S68b:unlock",
       "source": "G28",
       "target": "S68b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G29->S68c:unlock",
       "source": "G29",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G30->S68c:unlock",
       "source": "G30",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G31->S68c:unlock",
       "source": "G31",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G32->S68c:unlock",
       "source": "G32",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G33->S68c:unlock",
       "source": "G33",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G34->S68c:unlock",
       "source": "G34",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G35->S68c:unlock",
       "source": "G35",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G36->S68c:unlock",
       "source": "G36",
       "target": "S68c",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G37->S68d:unlock",
       "source": "G37",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G38->S68d:unlock",
       "source": "G38",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G39->S68d:unlock",
       "source": "G39",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G40->S68d:unlock",
       "source": "G40",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G41->S68d:unlock",
       "source": "G41",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G42->S68d:unlock",
       "source": "G42",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G43->S68d:unlock",
       "source": "G43",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G44->S68d:unlock",
       "source": "G44",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G45->S68d:unlock",
       "source": "G45",
       "target": "S68d",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G46->S68e:unlock",
       "source": "G46",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G47->S68e:unlock",
       "source": "G47",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G48->S68e:unlock",
       "source": "G48",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G49->S68e:unlock",
       "source": "G49",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G50->S68e:unlock",
       "source": "G50",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G51->S68e:unlock",
       "source": "G51",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G52->S68e:unlock",
       "source": "G52",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G53->S68e:unlock",
       "source": "G53",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G54->S68e:unlock",
       "source": "G54",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G55->S68e:unlock",
       "source": "G55",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G56->S68e:unlock",
       "source": "G56",
       "target": "S68e",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G57->S68f:unlock",
       "source": "G57",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G58->S68f:unlock",
       "source": "G58",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G59->S68f:unlock",
       "source": "G59",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G60->S68f:unlock",
       "source": "G60",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G61->S68f:unlock",
       "source": "G61",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G62->S68f:unlock",
       "source": "G62",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63->S68f:unlock",
       "source": "G63",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63b->S68f:unlock",
       "source": "G63b",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63c->S68f:unlock",
       "source": "G63c",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63d->S68f:unlock",
       "source": "G63d",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63e->S68f:unlock",
       "source": "G63e",
       "target": "S68f",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S69->S71:unlock",
       "source": "S69",
       "target": "S71",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S69->S72:unlock",
       "source": "S69",
       "target": "S72",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S69->SI01:during",
       "source": "S69",
       "target": "SI01",
       "kind": "during",
-      "label": "during"
+      "label": "during",
+      "exclusive": false
     },
     {
       "id": "S69->SI01:unlock",
       "source": "S69",
       "target": "SI01",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S71->S73:unlock",
       "source": "S71",
       "target": "S73",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S72->M38:unlock",
       "source": "S72",
       "target": "M38",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S72->M40:unlock",
       "source": "S72",
       "target": "M40",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S73->S74:unlock",
       "source": "S73",
       "target": "S74",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S74->S75:unlock",
       "source": "S74",
       "target": "S75",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S74->S79:unlock",
       "source": "S74",
       "target": "S79",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S75->S76:unlock",
       "source": "S75",
       "target": "S76",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S76->S77:unlock",
       "source": "S76",
       "target": "S77",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S77->S78:unlock",
       "source": "S77",
       "target": "S78",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S77->S80:unlock",
       "source": "S77",
       "target": "S80",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "S76->S80:unlock",
+      "id": "S76->S80:choice",
       "source": "S76",
       "target": "S80",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Support Us Cracks",
+      "exclusive": false,
+      "condition": "Resolve the confrontation between Kerry and Us Cracks peacefully in S76."
     },
     {
       "id": "S81->S82:unlock",
       "source": "S81",
       "target": "S82",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S82->S83:unlock",
       "source": "S82",
       "target": "S83",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S83->S84:unlock",
       "source": "S83",
       "target": "S84",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M03->S86:unlock",
       "source": "M03",
       "target": "S86",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S88->S89:unlock",
       "source": "S88",
       "target": "S89",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S89->S90:unlock",
       "source": "S89",
       "target": "S90",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S90->S91:unlock",
       "source": "S90",
       "target": "S91",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S91->S92:unlock",
       "source": "S91",
       "target": "S92",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "G71->S95:unlock",
+      "id": "G71->S95:choice",
       "source": "G71",
       "target": "S95",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Spare Rinder",
+      "exclusive": true,
+      "condition": "Spare Leon Rinder in exchange for his stash coordinates during Gig: The Man Who Killed Jason Foreman."
     },
     {
-      "id": "G74->S96:unlock",
+      "id": "G74->S96:choice",
       "source": "G74",
       "target": "S96",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Free Hasan",
+      "exclusive": true,
+      "condition": "Call Mr. Hands and convince him to let Hasan go during Gig: Prototype in the Scraper."
     },
     {
       "id": "PL10->S98:unlock",
       "source": "PL10",
       "target": "S98",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S99->S100:unlock",
       "source": "S99",
       "target": "S100",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S100->S100b:unlock",
       "source": "S100",
       "target": "S100b",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "G76->S102:unlock",
+      "id": "G76->S102:choice",
       "source": "G76",
       "target": "S102",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Spare Nele",
+      "exclusive": true,
+      "condition": "Allow Nele Springer to go free (or resolve peacefully) during Gig: Roads to Redemption."
     },
     {
       "id": "S104->G77:unlock",
       "source": "S104",
       "target": "G77",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "G73->S107:unlock",
+      "id": "PL09->S106:unlock",
+      "source": "PL09",
+      "target": "S106",
+      "kind": "unlock",
+      "label": "",
+      "exclusive": false
+    },
+    {
+      "id": "G73->S107:choice",
       "source": "G73",
       "target": "S107",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Spare Katya",
+      "exclusive": true,
+      "condition": "Accept Katya Karelina's deal and spare her during Gig: Spy in the Jungle."
     },
     {
-      "id": "G73->S108:unlock",
+      "id": "G73->S108:choice",
       "source": "G73",
       "target": "S108",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Complete G73",
+      "exclusive": false,
+      "condition": "Follow-up from Steven Santos after Gig: Spy in the Jungle."
     },
     {
       "id": "M11->S109:unlock",
       "source": "M11",
       "target": "S109",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M05->S110:unlock",
       "source": "M05",
       "target": "S110",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S59->S111:unlock",
       "source": "S59",
       "target": "S111",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S92->S111:unlock",
       "source": "S92",
       "target": "S111",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S53->S111:unlock",
       "source": "S53",
       "target": "S111",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S78->S111:unlock",
       "source": "S78",
       "target": "S111",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S112:unlock",
       "source": "M11",
       "target": "S112",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S84->S113:unlock",
       "source": "S84",
       "target": "S113",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M11->S114:unlock",
       "source": "M11",
       "target": "S114",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S115->S116:unlock",
       "source": "S115",
       "target": "S116",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S53->S115:unlock",
       "source": "S53",
       "target": "S115",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S84->S115:unlock",
       "source": "S84",
       "target": "S115",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M28->S117:unlock",
       "source": "M28",
       "target": "S117",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M19->S117:unlock",
       "source": "M19",
       "target": "S117",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "S83->S117:unlock",
       "source": "S83",
       "target": "S117",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M10->S119:unlock",
       "source": "M10",
       "target": "S119",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "M15->S120:unlock",
       "source": "M15",
       "target": "S120",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "PL04->S123:unlock",
       "source": "PL04",
       "target": "S123",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
-      "id": "G70->S124:unlock",
+      "id": "G70->S124:choice",
       "source": "G70",
       "target": "S124",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Spare Alan Noël",
+      "exclusive": true,
+      "condition": "Spare NetWatch agent Alan Noël during Gig: Treating Symptoms."
     },
     {
-      "id": "G73->S125:unlock",
+      "id": "G73->S125:choice",
       "source": "G73",
       "target": "S125",
-      "kind": "unlock",
-      "label": ""
+      "kind": "choice",
+      "label": "Loot Katya's Shard",
+      "exclusive": false,
+      "condition": "Read/collect Katya's data shard during or after Gig: Spy in the Jungle."
     },
     {
       "id": "PL10->S126:unlock",
       "source": "PL10",
       "target": "S126",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G29->G66:unlock",
       "source": "G29",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G30->G66:unlock",
       "source": "G30",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G31->G66:unlock",
       "source": "G31",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G32->G66:unlock",
       "source": "G32",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G33->G66:unlock",
       "source": "G33",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G34->G66:unlock",
       "source": "G34",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G35->G66:unlock",
       "source": "G35",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G36->G66:unlock",
       "source": "G36",
       "target": "G66",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G46->G67:unlock",
       "source": "G46",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G47->G67:unlock",
       "source": "G47",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G48->G67:unlock",
       "source": "G48",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G49->G67:unlock",
       "source": "G49",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G50->G67:unlock",
       "source": "G50",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G51->G67:unlock",
       "source": "G51",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G52->G67:unlock",
       "source": "G52",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G53->G67:unlock",
       "source": "G53",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G54->G67:unlock",
       "source": "G54",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G55->G67:unlock",
       "source": "G55",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G56->G67:unlock",
       "source": "G56",
       "target": "G67",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G57->G68:unlock",
       "source": "G57",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G58->G68:unlock",
       "source": "G58",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G59->G68:unlock",
       "source": "G59",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G60->G68:unlock",
       "source": "G60",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G61->G68:unlock",
       "source": "G61",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G62->G68:unlock",
       "source": "G62",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63->G68:unlock",
       "source": "G63",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63b->G68:unlock",
       "source": "G63b",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63c->G68:unlock",
       "source": "G63c",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63d->G68:unlock",
       "source": "G63d",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G63e->G68:unlock",
       "source": "G63e",
       "target": "G68",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G69->G71:unlock",
       "source": "G69",
       "target": "G71",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G69->G72:unlock",
       "source": "G69",
       "target": "G72",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G69->G73:unlock",
       "source": "G69",
       "target": "G73",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G70->G71:unlock",
       "source": "G70",
       "target": "G71",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G70->G72:unlock",
       "source": "G70",
       "target": "G72",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G70->G73:unlock",
       "source": "G70",
       "target": "G73",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G75->S97:unlock",
       "source": "G75",
       "target": "S97",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     },
     {
       "id": "G77->S105:unlock",
       "source": "G77",
       "target": "S105",
       "kind": "unlock",
-      "label": ""
+      "label": "",
+      "exclusive": false
     }
   ]
 }

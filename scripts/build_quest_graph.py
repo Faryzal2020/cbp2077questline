@@ -172,6 +172,7 @@ def main() -> int:
     if args.overrides.exists():
         with args.overrides.open("r", encoding="utf-8") as f:
             overrides = json.load(f)
+    edge_overrides: dict[str, Any] = overrides.get("_edges", {})
 
     game_quests = [q for q in extracted["quests"] if is_playable_game_quest(q)]
     by_exact: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -194,16 +195,23 @@ def main() -> int:
             return
         if src not in graph_id_set or tgt not in graph_id_set:
             return
-        k = (src, tgt, kind)
+        eov = edge_overrides.get(f"{src}->{tgt}", {})
+        final_kind = eov.get("kind", kind)
+        final_label = eov.get("label", label)
+        k = (src, tgt, final_kind)
         if k not in edge_keys:
             edge_keys.add(k)
-            edges.append({
-                "id": f"{src}->{tgt}:{kind}",
+            edge_obj: dict[str, Any] = {
+                "id": f"{src}->{tgt}:{final_kind}",
                 "source": src,
                 "target": tgt,
-                "kind": kind,
-                "label": label,
-            })
+                "kind": final_kind,
+                "label": final_label,
+                "exclusive": bool(eov.get("exclusive", False)),
+            }
+            if eov.get("condition"):
+                edge_obj["condition"] = eov["condition"]
+            edges.append(edge_obj)
 
     graph_rows = [r for r in rows if r["type"] not in EXCLUDED_GRAPH_TYPES]
     graph_id_set = {r["id"] for r in graph_rows}

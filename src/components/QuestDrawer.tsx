@@ -51,10 +51,11 @@ export function QuestDrawer({
 
   const choiceOutgoing = outgoing.filter((e) => e.kind === 'choice');
   const choiceIncoming = incoming.filter((e) => e.kind === 'choice');
+  const hasExclusiveSplit = choiceOutgoing.some((e) => e.exclusive);
   const hasChoiceInfo =
     choiceOutgoing.length > 0 ||
     choiceIncoming.length > 0 ||
-    /choices?\s+in|from\s+[A-Z]+\d+/i.test(quest.reqText) ||
+    /choices?\s+in/i.test(quest.reqText) ||
     quest.ponr;
 
   return (
@@ -112,24 +113,33 @@ export function QuestDrawer({
 
           {choiceOutgoing.length > 0 && (
             <div className="choice-box">
-              <div className="choice-box__title">[!] Branching Outcomes from {quest.id}</div>
+              <div className="choice-box__title">
+                {hasExclusiveSplit
+                  ? `[!] CRITICAL SPLIT (Mutually Exclusive) in ${quest.id}`
+                  : `[!] Branching Outcomes from ${quest.id}`}
+              </div>
               <p className="choice-box__desc">
-                Dialogue or story choices in this quest lead to mutually exclusive outcomes:
+                {hasExclusiveSplit
+                  ? 'Picking one of these paths permanently locks out the other(s) on this playthrough:'
+                  : 'Choices in this quest lead to different outcomes:'}
               </p>
-              <div className="jump-list">
+              <div className="choice-detail-list">
                 {choiceOutgoing.map((e) => {
                   const target = allQuestsMap.get(e.target);
                   return (
-                    <button
-                      key={e.id}
-                      type="button"
-                      className="jump-chip jump-chip--choice"
-                      onClick={() => onSelectQuest(e.target)}
-                    >
-                      <span>{e.target}</span>
-                      <span>{target?.title ?? e.target}</span>
-                      <ArrowRight size={12} />
-                    </button>
+                    <div key={e.id} className="choice-detail-item">
+                      <button
+                        type="button"
+                        className="jump-chip jump-chip--choice"
+                        onClick={() => onSelectQuest(e.target)}
+                      >
+                        <strong>{e.target}</strong>
+                        <span>{target?.title ?? e.target}</span>
+                        {e.exclusive && <em className="tag-exclusive">Exclusive</em>}
+                        <ArrowRight size={12} />
+                      </button>
+                      {e.condition && <p className="choice-detail-cond">{e.condition}</p>}
+                    </div>
                   );
                 })}
               </div>
@@ -138,21 +148,24 @@ export function QuestDrawer({
 
           {choiceIncoming.length > 0 && (
             <div className="choice-box choice-box--incoming">
-              <div className="choice-box__title">Result of Choice In:</div>
-              <div className="jump-list">
+              <div className="choice-box__title">Required Choice to Unlock:</div>
+              <div className="choice-detail-list">
                 {choiceIncoming.map((e) => {
                   const src = allQuestsMap.get(e.source);
                   return (
-                    <button
-                      key={e.id}
-                      type="button"
-                      className="jump-chip jump-chip--choice"
-                      onClick={() => onSelectQuest(e.source)}
-                    >
-                      <ArrowLeft size={12} />
-                      <span>{e.source}</span>
-                      <span>{src?.title ?? e.source}</span>
-                    </button>
+                    <div key={e.id} className="choice-detail-item">
+                      <button
+                        type="button"
+                        className="jump-chip jump-chip--choice"
+                        onClick={() => onSelectQuest(e.source)}
+                      >
+                        <ArrowLeft size={12} />
+                        <strong>{e.source}</strong>
+                        <span>{src?.title ?? e.source}</span>
+                        {e.exclusive && <em className="tag-exclusive">Exclusive</em>}
+                      </button>
+                      {e.condition && <p className="choice-detail-cond">{e.condition}</p>}
+                    </div>
                   );
                 })}
               </div>
