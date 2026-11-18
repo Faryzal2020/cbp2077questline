@@ -16280,7 +16280,7 @@
       "kind": "choice",
       "label": "Download Blind_n_Dead",
       "exclusive": false,
-      "condition": "Download the 'Blind_n_Dead' file from the terminal in Slider's hideout/garage during PL09."
+      "condition": "When Reed tells you to take control of the vehicle, ignore him three times and choose the dialogue options to keep eavesdropping. Progress until Aurore and Aymeric are eliminated, then *after* selecting the yellow 'Jack In' option, look for the blue option to search and download the Blind_n_Dead file."
     },
     {
       "id": "PL10->PL11:choice",
