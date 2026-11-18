@@ -28,6 +28,7 @@ function QuestNodeComponent({ data, selected }: NodeProps<Node<FlowQuestNodeData
     hasChoiceRequirement,
     incomingChoiceLabels,
     isPrerequisite,
+    isSearchMatch,
     isDimmed,
     onToggleDone,
   } = data;
@@ -42,6 +43,7 @@ function QuestNodeComponent({ data, selected }: NodeProps<Node<FlowQuestNodeData
         done ? 'quest-node--done' : '',
         selected ? 'quest-node--selected' : '',
         isPrerequisite ? 'quest-node--prereq' : '',
+        isSearchMatch ? 'quest-node--search-match' : '',
         isDimmed ? 'quest-node--dimmed' : '',
       ]
         .filter(Boolean)

@@ -20,6 +20,7 @@ export interface FlowQuestNodeData extends Record<string, unknown> {
   hasChoiceRequirement: boolean;
   incomingChoiceLabels: string[];
   isPrerequisite?: boolean;
+  isSearchMatch?: boolean;
   isDimmed?: boolean;
   onToggleDone: (questId: string) => void;
 }
@@ -242,14 +243,26 @@ export function applySelectionHighlight(
   nodes: AnyFlowNode[],
   edges: Edge[],
   selectedId: string | null,
+  searchMatchIds: Set<string>,
 ): { nodes: AnyFlowNode[]; edges: Edge[] } {
+  const hasSearch = searchMatchIds.size > 0;
+
   if (!selectedId) {
     return {
-      nodes: nodes.map((n) => ({
-        ...n,
-        selected: false,
-        data: { ...n.data, isPrerequisite: false, isDimmed: false },
-      })),
+      nodes: nodes.map((n) => {
+        const isMatch = hasSearch && searchMatchIds.has(n.id);
+        return {
+          ...n,
+          selected: false,
+          zIndex: isMatch ? 25 : n.type === 'stubNode' ? 5 : 10,
+          data: {
+            ...n.data,
+            isPrerequisite: false,
+            isSearchMatch: isMatch,
+            isDimmed: hasSearch && !isMatch,
+          },
+        };
+      }),
       edges,
     };
   }
@@ -266,14 +279,16 @@ export function applySelectionHighlight(
   const nextNodes = nodes.map((n) => {
     const isSel = n.id === selectedId;
     const isPrereq = prereqIds.has(n.id);
-    const isDimmed = !isSel && !isPrereq;
+    const isMatch = hasSearch && searchMatchIds.has(n.id);
+    const isDimmed = !isSel && !isPrereq && !isMatch;
     return {
       ...n,
       selected: isSel,
-      zIndex: isSel ? 30 : isPrereq ? 20 : 10,
+      zIndex: isSel ? 30 : isMatch ? 25 : isPrereq ? 20 : 10,
       data: {
         ...n.data,
         isPrerequisite: isPrereq,
+        isSearchMatch: isMatch,
         isDimmed,
       },
     };

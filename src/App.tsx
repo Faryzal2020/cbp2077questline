@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Background,
   Controls,
@@ -87,6 +87,8 @@ function QuestGraphApp() {
   const [baseNodes, setBaseNodes] = useState<AnyFlowNode[]>([]);
   const [baseEdges, setBaseEdges] = useState<Edge[]>([]);
   const [layouting, setLayouting] = useState(false);
+  const [searchIndex, setSearchIndex] = useState(0);
+  const searchActivePanRef = useRef(false);
 
   const { setCenter, fitView } = useReactFlow();
 
@@ -157,22 +159,32 @@ function QuestGraphApp() {
 
   const filteredQuests = useMemo(() => {
     if (!payload) return [];
-    const term = search.trim().toLowerCase();
     const plEnabled = activeCats.has('pl');
     return payload.nodes.filter((q) => {
       if (!plEnabled && isPhantomLibertyQuest(q)) return false;
       if (!activeTypes.has(q.type)) return false;
       if (onlyWithIconics && q.rewards.length === 0) return false;
-      if (term) {
-        const hitTitle = q.title.toLowerCase().includes(term);
-        const hitId = q.id.toLowerCase().includes(term);
-        const hitGiver = q.giver.toLowerCase().includes(term);
-        const hitReward = q.rewards.some((r) => r.name.toLowerCase().includes(term));
-        if (!hitTitle && !hitId && !hitGiver && !hitReward) return false;
-      }
       return true;
     });
-}, [payload, activeCats, activeTypes, onlyWithIconics, search]);
+}, [payload, activeCats, activeTypes, onlyWithIconics]);
+
+const searchMatches = useMemo(() => {
+  const term = search.trim().toLowerCase();
+  if (!term) return [];
+  return filteredQuests.filter((q) => {
+    return (
+      q.title.toLowerCase().includes(term) ||
+      q.id.toLowerCase().includes(term) ||
+      q.giver.toLowerCase().includes(term) ||
+      q.rewards.some((r) => r.name.toLowerCase().includes(term))
+    );
+  });
+}, [filteredQuests, search]);
+
+const searchMatchIds = useMemo(
+  () => new Set(searchMatches.map((q) => q.id)),
+  [searchMatches],
+);
 
 useEffect(() => {
   if (!payload) return;
@@ -197,9 +209,24 @@ useEffect(() => {
 }, [payload, filteredQuests, allQuestsMap, doneQuests, doneIconics, toggleQuestDone]);
 
 const { nodes: flowNodes, edges: flowEdges } = useMemo(
-  () => applySelectionHighlight(baseNodes, baseEdges, selectedId),
-  [baseNodes, baseEdges, selectedId],
+  () => applySelectionHighlight(baseNodes, baseEdges, selectedId, searchMatchIds),
+  [baseNodes, baseEdges, selectedId, searchMatchIds],
 );
+
+useEffect(() => {
+  if (!searchActivePanRef.current || searchMatches.length === 0 || baseNodes.length === 0) return;
+  const idx = searchIndex % searchMatches.length;
+  const target = searchMatches[idx];
+  const node = baseNodes.find((n) => n.id === target.id);
+  if (node) {
+    setCenter(
+      node.position.x + NODE_WIDTH / 2,
+      node.position.y + NODE_HEIGHT / 2,
+      { zoom: 1, duration: 350 },
+    );
+    searchActivePanRef.current = false;
+  }
+}, [searchMatches, searchIndex, baseNodes, setCenter]);
 
 const handleMoveEnd = useCallback((_: unknown, viewport: Viewport) => {
   saveViewport({ x: viewport.x, y: viewport.y, zoom: viewport.zoom });
@@ -268,8 +295,36 @@ return (
           type="text"
           placeholder="Search quest, ID, giver, or iconic…"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            searchActivePanRef.current = true;
+            setSearchIndex(0);
+            setSearch(e.target.value);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && searchMatches.length > 0) {
+              searchActivePanRef.current = true;
+              setSearchIndex((i) => (i + 1) % searchMatches.length);
+            }
+          }}
         />
+        {search.trim() && (
+          <>
+            <span className="search-count">
+              {searchMatches.length} {searchMatches.length === 1 ? 'match' : 'matches'}
+            </span>
+            <button
+              type="button"
+              className="search-clear"
+              title="Clear search"
+              onClick={() => {
+                setSearch('');
+                setSearchIndex(0);
+              }}
+            >
+              ×
+            </button>
+          </>
+        )}
       </div>
 
       <div className="topbar__filters">
