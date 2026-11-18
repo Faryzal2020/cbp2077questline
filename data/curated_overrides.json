@@ -100,7 +100,7 @@
       "kind": "choice",
       "exclusive": false,
       "label": "Download Blind_n_Dead",
-      "condition": "Download the 'Blind_n_Dead' file from the terminal in Slider's hideout/garage during PL09."
+      "condition": "When Reed tells you to take control of the vehicle, ignore him three times and choose the dialogue options to keep eavesdropping. Progress until Aurore and Aymeric are eliminated, then before selecting the yellow 'Jack In' option, look for the blue option to search and download the Blind_n_Dead file."
     },
     "PL12->S103": {
       "kind": "choice",
@@ -159,391 +159,911 @@
   },
   "M08": {
     "rewards": [
-      { "name": "Chaos", "method": "npc_drop", "missable": true, "note": "Looted from Royce if you fight him; mutually exclusive with Doom Doom (S73)." }
+      {
+        "name": "Chaos",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Royce if you fight him; mutually exclusive with Doom Doom (S73)."
+      }
     ]
   },
   "M10": {
     "rewards": [
-      { "name": "Iguana Egg", "method": "world_pickup", "missable": true, "note": "Hollow log next to the iguana in Yorinobu's penthouse; Konpeki Plaza locks permanently." },
-      { "name": "Kongou", "method": "world_pickup", "missable": true, "note": "Bedside table next to Yorinobu's bed." },
-      { "name": "Nehan", "method": "npc_drop", "missable": true, "note": "Looted from Saburo Arasaka's body." },
-      { "name": "Saburo's Dog Tag", "method": "npc_drop", "missable": true, "note": "Looted from Saburo Arasaka's body." },
-      { "name": "Satori", "method": "world_pickup", "missable": true, "note": "Inside Saburo's AV on Konpeki Plaza rooftop helipad." },
-      { "name": "Kotetsu No Ryu Coat", "method": "world_pickup", "missable": true, "note": "Yorinobu's penthouse bathroom." },
-      { "name": "Yorinobu's Formal Shirt/Slacks", "method": "world_pickup", "missable": true, "note": "Suitcase at the top of the penthouse stairs." }
+      {
+        "name": "Iguana Egg",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hollow log next to the iguana in Yorinobu's penthouse; Konpeki Plaza locks permanently."
+      },
+      {
+        "name": "Kongou",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Bedside table next to Yorinobu's bed."
+      },
+      {
+        "name": "Nehan",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Saburo Arasaka's body."
+      },
+      {
+        "name": "Saburo's Dog Tag",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Saburo Arasaka's body."
+      },
+      {
+        "name": "Satori",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Inside Saburo's AV on Konpeki Plaza rooftop helipad."
+      },
+      {
+        "name": "Kotetsu No Ryu Coat",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Yorinobu's penthouse bathroom."
+      },
+      {
+        "name": "Yorinobu's Formal Shirt/Slacks",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase at the top of the penthouse stairs."
+      }
     ]
   },
   "M12": {
     "rewards": [
-      { "name": "Archer Quartz \"Bandit\"", "method": "quest_reward", "missable": false, "note": "Free from Rogue if you refuse to help Panam fight Nash (locks out Widow Maker); otherwise purchasable from Dakota via Autofixer." },
-      { "name": "Widow Maker", "method": "npc_drop", "missable": true, "note": "Looted from Nash in the Raffen Shiv cave; missed if you refuse to help Panam." }
+      {
+        "name": "Archer Quartz \"Bandit\"",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Free from Rogue if you refuse to help Panam fight Nash (locks out Widow Maker); otherwise purchasable from Dakota via Autofixer."
+      },
+      {
+        "name": "Widow Maker",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Nash in the Raffen Shiv cave; missed if you refuse to help Panam."
+      }
     ]
   },
   "M14": {
     "rewards": [
-      { "name": "Brennan Apollo \"Scorpion\"", "method": "quest_reward", "missable": false }
+      {
+        "name": "Brennan Apollo \"Scorpion\"",
+        "method": "quest_reward",
+        "missable": false
+      }
     ]
   },
   "M15": {
     "rewards": [
-      { "name": "Plan B", "method": "world_pickup", "missable": false, "note": "Looted from Dexter DeShawn's corpse at the Municipal Landfill (available in free roam right after M15)." }
+      {
+        "name": "Plan B",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Looted from Dexter DeShawn's corpse at the Municipal Landfill (available in free roam right after M15)."
+      }
     ]
   },
   "M17": {
     "rewards": [
-      { "name": "Prototype Shingen Mark V", "method": "world_pickup", "missable": false, "note": "Arasaka Industrial Park container 667 (booby-trapped); accessible in free roam." }
+      {
+        "name": "Prototype Shingen Mark V",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Arasaka Industrial Park container 667 (booby-trapped); accessible in free roam."
+      }
     ]
   },
   "M18": {
     "rewards": [
-      { "name": "Genjiroh", "method": "world_pickup", "missable": false, "note": "Floor 21 security room (Tech 11 or code 2906); also at North Oak Arasaka Estate." },
-      { "name": "Jinchu-Maru", "method": "npc_drop", "missable": true, "note": "Looted from Sandayu Oda; arena locks after leaving." }
+      {
+        "name": "Genjiroh",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Floor 21 security room (Tech 11 or code 2906); also at North Oak Arasaka Estate."
+      },
+      {
+        "name": "Jinchu-Maru",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Sandayu Oda; arena locks after leaving."
+      }
     ]
   },
   "M20": {
     "rewards": [
-      { "name": "Johnny's Tank Top", "method": "quest_reward", "missable": false, "note": "Granted automatically at Pistis Sophia hotel." }
+      {
+        "name": "Johnny's Tank Top",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Granted automatically at Pistis Sophia hotel."
+      }
     ]
   },
   "M21": {
     "rewards": [
-      { "name": "Cocktail Stick", "method": "world_pickup", "missable": true, "note": "Clouds VIP dressing room." },
-      { "name": "Lizzie", "method": "world_pickup", "missable": true, "note": "Lizzie's Bar basement (spawns starting in M21)." }
+      {
+        "name": "Cocktail Stick",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Clouds VIP dressing room."
+      },
+      {
+        "name": "Lizzie",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Lizzie's Bar basement (spawns starting in M21)."
+      }
     ]
   },
   "M23": {
     "rewards": [
-      { "name": "Cottonmouth", "method": "world_pickup", "missable": true, "note": "On table in Fingers' clinic; locks out if Fingers is attacked/killed." }
+      {
+        "name": "Cottonmouth",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "On table in Fingers' clinic; locks out if Fingers is attacked/killed."
+      }
     ]
   },
   "M24": {
     "rewards": [
-      { "name": "Errata", "method": "world_pickup", "missable": false, "note": "Inside furnace in Electric Corporation sub-level; accessible in free roam." }
+      {
+        "name": "Errata",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Inside furnace in Electric Corporation sub-level; accessible in free roam."
+      }
     ]
   },
   "M26": {
     "rewards": [
-      { "name": "Butcher's Cleaver", "method": "world_pickup", "missable": true, "note": "Counter in Placide's butcher shop back room." }
+      {
+        "name": "Butcher's Cleaver",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Counter in Placide's butcher shop back room."
+      }
     ]
   },
   "M27": {
     "rewards": [
-      { "name": "Sasquatch's Hammer", "method": "npc_drop", "missable": true, "note": "Dropped by Sasquatch in GIM arena." }
+      {
+        "name": "Sasquatch's Hammer",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Sasquatch in GIM arena."
+      }
     ]
   },
   "M28": {
     "rewards": [
-      { "name": "Timeworn Trench Coat", "method": "npc_drop", "missable": true, "note": "Dropped by Placide if you side against the Voodoo Boys and kill him." }
+      {
+        "name": "Timeworn Trench Coat",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Placide if you side against the Voodoo Boys and kill him."
+      }
     ]
   },
   "M31": {
     "rewards": [
-      { "name": "Genjiroh", "method": "world_pickup", "missable": false, "note": "North Oak Arasaka Estate security office (if missed in M18)." }
+      {
+        "name": "Genjiroh",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "North Oak Arasaka Estate security office (if missed in M18)."
+      }
     ]
   },
   "M32": {
     "rewards": [
-      { "name": "Access Token", "method": "npc_drop", "missable": false, "note": "Looted from Adam Smasher; unlocks Ba Xing Chong spec on the Ebunike." }
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher; unlocks Ba Xing Chong spec on the Ebunike."
+      }
     ]
   },
   "M34": {
     "rewards": [
-      { "name": "Amnesty", "method": "quest_reward", "missable": true, "note": "Win Cassidy's shooting challenge at Aldecaldos camp." },
-      { "name": "Aldecaldos Rally Bolero Jacket", "method": "quest_reward", "missable": false }
+      {
+        "name": "Amnesty",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Win Cassidy's shooting challenge at Aldecaldos camp."
+      },
+      {
+        "name": "Aldecaldos Rally Bolero Jacket",
+        "method": "quest_reward",
+        "missable": false
+      }
     ]
   },
   "M36": {
     "rewards": [
-      { "name": "Access Token", "method": "npc_drop", "missable": false, "note": "Looted from Adam Smasher." }
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      }
     ]
   },
   "M38": {
     "rewards": [
-      { "name": "Prejudice", "method": "world_pickup", "missable": true, "note": "Picked up in the Afterlife while gearing up with Rogue." }
+      {
+        "name": "Prejudice",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Picked up in the Afterlife while gearing up with Rogue."
+      }
     ]
   },
   "M39": {
     "rewards": [
-      { "name": "Access Token", "method": "npc_drop", "missable": false, "note": "Looted from Adam Smasher." },
-      { "name": "Caretaker's Spade", "method": "world_pickup", "missable": true, "note": "Arasaka Tower indoor jungle/garden." },
-      { "name": "Pride", "method": "world_pickup", "missable": true, "note": "Dropped near entrance gate after defeating Adam Smasher." }
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      },
+      {
+        "name": "Caretaker's Spade",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Arasaka Tower indoor jungle/garden."
+      },
+      {
+        "name": "Pride",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Dropped near entrance gate after defeating Adam Smasher."
+      }
     ]
   },
   "M40": {
     "rewards": [
-      { "name": "Access Token", "method": "npc_drop", "missable": false, "note": "Looted from Adam Smasher." }
+      {
+        "name": "Access Token",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from Adam Smasher."
+      }
     ]
   },
   "PL03": {
     "rewards": [
-      { "name": "Chimera Core", "method": "world_pickup", "missable": true, "note": "Looted in Chimera boss arena before leaving; crafts 1 of 4 Iconic weapon mods." }
+      {
+        "name": "Chimera Core",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Looted in Chimera boss arena before leaving; crafts 1 of 4 Iconic weapon mods."
+      }
     ]
   },
   "PL04": {
     "rewards": [
-      { "name": "Hawk", "method": "world_pickup", "missable": true, "note": "Table in Kress Street safehouse after Myers sleeps." },
-      { "name": "Makigai Tanishi T400", "method": "quest_reward", "missable": false, "note": "Gifted by Mr. Hands after Dogtown opens up." }
+      {
+        "name": "Hawk",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Table in Kress Street safehouse after Myers sleeps."
+      },
+      {
+        "name": "Makigai Tanishi T400",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Gifted by Mr. Hands after Dogtown opens up."
+      }
     ]
   },
   "PL05": {
     "rewards": [
-      { "name": "Gris-Gris", "method": "world_pickup", "missable": true, "note": "Slider's hideout storage room (requires keycard from G70)." }
+      {
+        "name": "Gris-Gris",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Slider's hideout storage room (requires keycard from G70)."
+      }
     ]
   },
   "PL06": {
     "rewards": [
-      { "name": "Her Majesty", "method": "world_pickup", "missable": true, "note": "Weapon case in Alex's safehouse/bar." }
+      {
+        "name": "Her Majesty",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Weapon case in Alex's safehouse/bar."
+      }
     ]
   },
   "PL07": {
     "rewards": [
-      { "name": "Rasetsu", "method": "world_pickup", "missable": true, "note": "Sniper nest during Black Sapphire sequence." }
+      {
+        "name": "Rasetsu",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Sniper nest during Black Sapphire sequence."
+      }
     ]
   },
   "PL08": {
     "rewards": [
-      { "name": "NDI Osprey", "method": "world_pickup", "missable": true, "note": "Weapon case inside Alex's safehouse armory." }
+      {
+        "name": "NDI Osprey",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Weapon case inside Alex's safehouse armory."
+      }
     ]
   },
   "PL09": {
     "rewards": [
-      { "name": "Behavioral Imprint-synced Faceplate", "method": "quest_reward", "missable": false, "note": "Installed by Farida Nazeri." }
+      {
+        "name": "Behavioral Imprint-synced Faceplate",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Installed by Farida Nazeri."
+      }
     ]
   },
   "PL10": {
     "rewards": [
-      { "name": "Bald Eagle", "method": "npc_drop", "missable": true, "note": "Dropped by Kurt Hansen (Reed path)." },
-      { "name": "Wild Dog", "method": "npc_drop", "missable": true, "note": "Dropped by Kurt Hansen (Reed path)." },
-      { "name": "Fang", "method": "npc_drop", "missable": true, "note": "Dropped by Kurt Hansen (Reed path)." },
-      { "name": "Murphy's Law", "method": "npc_drop", "missable": true, "note": "Dropped by Murphy (Songbird path)." }
+      {
+        "name": "Bald Eagle",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Wild Dog",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Fang",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Kurt Hansen (Reed path)."
+      },
+      {
+        "name": "Murphy's Law",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Murphy (Songbird path)."
+      }
     ]
   },
   "PL12": {
     "rewards": [
-      { "name": "Crowbar", "method": "world_pickup", "missable": true, "note": "Inside Cynosure facility." },
-      { "name": "Erebus (Crafting Spec)", "method": "world_pickup", "missable": true, "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Militech Canto Mk.6)." },
-      { "name": "Militech Canto Mk.6 (Crafting Spec)", "method": "world_pickup", "missable": true, "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Erebus)." }
+      {
+        "name": "Crowbar",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Inside Cynosure facility."
+      },
+      {
+        "name": "Erebus (Crafting Spec)",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Militech Canto Mk.6)."
+      },
+      {
+        "name": "Militech Canto Mk.6 (Crafting Spec)",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Cynosure facility; decoded & crafted in S103 (mutually exclusive with Erebus)."
+      }
     ]
   },
   "PL15": {
     "rewards": [
-      { "name": "Pariah", "method": "npc_drop", "missable": true, "note": "Looted from Solomon Reed if killed at the spaceport (not sold at Black Market)." }
+      {
+        "name": "Pariah",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Solomon Reed if killed at the spaceport (not sold at Black Market)."
+      }
     ]
   },
   "PL19": {
     "rewards": [
-      { "name": "Quantum Tuner", "method": "quest_reward", "missable": true, "note": "From Songbird's cache at Tranquil Terrace (requires PLE04 King of Wands)." }
+      {
+        "name": "Quantum Tuner",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "From Songbird's cache at Tranquil Terrace (requires PLE04 King of Wands)."
+      }
     ]
   },
   "S01": {
     "rewards": [
-      { "name": "Quadra Type-66 \"Hoon\"", "method": "world_pickup", "missable": false, "note": "Keys in nearby box inside Northside warehouse." }
+      {
+        "name": "Quadra Type-66 \"Hoon\"",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Keys in nearby box inside Northside warehouse."
+      }
     ]
   },
   "S08": {
     "rewards": [
-      { "name": "Trauma Team Armor-Weave Tactical Vest", "method": "quest_reward", "missable": true, "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally." },
-      { "name": "Decadencia Vede Tactical Armor-Weave Pants", "method": "quest_reward", "missable": true, "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally." }
+      {
+        "name": "Trauma Team Armor-Weave Tactical Vest",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally."
+      },
+      {
+        "name": "Decadencia Vede Tactical Armor-Weave Pants",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Regina's reward crate if all 17 cyberpsychos are neutralized non-lethally."
+      }
     ]
   },
   "S12": {
     "rewards": [
-      { "name": "Sir John Phallustiff", "method": "world_pickup", "missable": true, "note": "On bed in No-Tell Motel; requires siding with Meredith Stout in M08." }
+      {
+        "name": "Sir John Phallustiff",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "On bed in No-Tell Motel; requires siding with Meredith Stout in M08."
+      }
     ]
   },
   "S14": {
     "rewards": [
-      { "name": "Rayfield Caliburn", "method": "world_pickup", "missable": false, "note": "Shipping container in Badlands tunnel after M12 & 40 Street Cred." }
+      {
+        "name": "Rayfield Caliburn",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Shipping container in Badlands tunnel after M12 & 40 Street Cred."
+      }
     ]
   },
   "S16": {
     "rewards": [
-      { "name": "Galena GA40XT \"Rattler\"", "method": "quest_reward", "missable": true, "note": "Nomad lifepath exclusive." }
+      {
+        "name": "Galena GA40XT \"Rattler\"",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Nomad lifepath exclusive."
+      }
     ]
   },
   "S17": {
     "rewards": [
-      { "name": "MaxTac Mantis Blades", "method": "npc_drop", "missable": true, "note": "Defeat and loot Melissa Rory at Jinguji before she despawns (alt source in PL Reed path)." }
+      {
+        "name": "MaxTac Mantis Blades",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Defeat and loot Melissa Rory at Jinguji before she despawns (alt source in PL Reed path)."
+      }
     ]
   },
   "S19": {
     "rewards": [
-      { "name": "Plan B", "method": "world_pickup", "missable": false, "note": "Looted from Dexter DeShawn's corpse next to Bartmoss's freezer." }
+      {
+        "name": "Plan B",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Looted from Dexter DeShawn's corpse next to Bartmoss's freezer."
+      }
     ]
   },
   "S20": {
     "rewards": [
-      { "name": "Skippy", "method": "world_pickup", "missable": true, "note": "Vista del Rey alley; permanently lost if returned to Regina." }
+      {
+        "name": "Skippy",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Vista del Rey alley; permanently lost if returned to Regina."
+      }
     ]
   },
   "S22": {
     "rewards": [
-      { "name": "David's Jacket", "method": "quest_reward", "missable": false, "note": "Falco's stash at Dam Viewpoint." }
+      {
+        "name": "David's Jacket",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Falco's stash at Dam Viewpoint."
+      }
     ]
   },
   "S34": {
     "rewards": [
-      { "name": "La Chingona Dorada", "method": "world_pickup", "missable": true, "note": "Ofrenda altar ~24h after S34 (requires sending Jackie's body to family in M10)." },
-      { "name": "Jackie's Arch", "method": "quest_reward", "missable": true, "note": "Keys from Mama Welles (requires sending Jackie's body to family in M10)." },
-      { "name": "Jackie's Tuned Arch", "method": "quest_reward", "missable": true, "note": "Nomad-exclusive upgraded variant if Nomad V gives tuning advice." }
+      {
+        "name": "La Chingona Dorada",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Ofrenda altar ~24h after S34 (requires sending Jackie's body to family in M10)."
+      },
+      {
+        "name": "Jackie's Arch",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Keys from Mama Welles (requires sending Jackie's body to family in M10)."
+      },
+      {
+        "name": "Jackie's Tuned Arch",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Nomad-exclusive upgraded variant if Nomad V gives tuning advice."
+      }
     ]
   },
   "S36": {
     "rewards": [
-      { "name": "Lexington X-MOD2", "method": "quest_reward", "missable": true, "note": "Win 1st place in Wilson's shooting contest (not sold at Black Market)." }
+      {
+        "name": "Lexington X-MOD2",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Win 1st place in Wilson's shooting contest (not sold at Black Market)."
+      }
     ]
   },
   "S52": {
     "rewards": [
-      { "name": "Tinker Bell", "method": "world_pickup", "missable": true, "note": "Hidden room under desk in Edgewood Farm; locks after leaving." }
+      {
+        "name": "Tinker Bell",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hidden room under desk in Edgewood Farm; locks after leaving."
+      }
     ]
   },
   "S57": {
     "rewards": [
-      { "name": "Overwatch", "method": "quest_reward", "missable": false, "note": "Gifted by Panam upon completing Riders on the Storm." },
-      { "name": "Problem Solver", "method": "npc_drop", "missable": true, "note": "Dropped by Wraith Boss Hunter guarding camp entrance/garage." }
+      {
+        "name": "Overwatch",
+        "method": "quest_reward",
+        "missable": false,
+        "note": "Gifted by Panam upon completing Riders on the Storm."
+      },
+      {
+        "name": "Problem Solver",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Wraith Boss Hunter guarding camp entrance/garage."
+      }
     ]
   },
   "S61": {
     "rewards": [
-      { "name": "Stinger", "method": "quest_reward", "missable": true, "note": "Quest locks permanently if S59 progresses." },
-      { "name": "Scorpion's Action Figure", "method": "quest_reward", "missable": true, "note": "Apartment decoration; quest locks permanently if S59 progresses." }
+      {
+        "name": "Stinger",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Quest locks permanently if S59 progresses."
+      },
+      {
+        "name": "Scorpion's Action Figure",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Apartment decoration; quest locks permanently if S59 progresses."
+      }
     ]
   },
   "S63": {
     "rewards": [
-      { "name": "O'Five", "method": "npc_drop", "missable": true, "note": "Wager via Body check or provoke & kill Buck." }
+      {
+        "name": "O'Five",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Wager via Body check or provoke & kill Buck."
+      }
     ]
   },
   "S69": {
     "rewards": [
-      { "name": "Johnny's Aviators", "method": "quest_reward", "missable": false },
-      { "name": "Replica of Johnny's Samurai Jacket", "method": "quest_reward", "missable": false },
-      { "name": "Malorian Arms 3516", "method": "npc_drop", "missable": true, "note": "Looted from Jeremiah Grayson at Ebunike Docks." },
-      { "name": "Porsche 911 II (930) Turbo", "method": "world_pickup", "missable": true, "note": "Requires container key from Grayson." }
+      {
+        "name": "Johnny's Aviators",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Replica of Johnny's Samurai Jacket",
+        "method": "quest_reward",
+        "missable": false
+      },
+      {
+        "name": "Malorian Arms 3516",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Jeremiah Grayson at Ebunike Docks."
+      },
+      {
+        "name": "Porsche 911 II (930) Turbo",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Requires container key from Grayson."
+      }
     ]
   },
   "S73": {
     "rewards": [
-      { "name": "Doom Doom", "method": "npc_drop", "missable": true, "note": "Looted from Dum Dum in Totentanz (requires Dum Dum surviving M08)." },
-      { "name": "Gold-Plated Baseball Bat", "method": "world_pickup", "missable": true, "note": "Denny's pool; requires siding with Denny over Henry." }
+      {
+        "name": "Doom Doom",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Dum Dum in Totentanz (requires Dum Dum surviving M08)."
+      },
+      {
+        "name": "Gold-Plated Baseball Bat",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Denny's pool; requires siding with Denny over Henry."
+      }
     ]
   },
   "S86": {
     "rewards": [
-      { "name": "Apparition", "method": "npc_drop", "missable": true, "note": "Corpo lifepath exclusive; looted from Frank." }
+      {
+        "name": "Apparition",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Corpo lifepath exclusive; looted from Frank."
+      }
     ]
   },
   "S89": {
     "rewards": [
-      { "name": "Death and Taxes", "method": "world_pickup", "missable": false, "note": "Desk in Maiko's office (fallback: Judy's apartment)." }
+      {
+        "name": "Death and Taxes",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Desk in Maiko's office (fallback: Judy's apartment)."
+      }
     ]
   },
   "S91": {
     "rewards": [
-      { "name": "Tsumetogi", "method": "world_pickup", "missable": true, "note": "Hiromi's penthouse table/Hiromi; penthouse locks after leaving." }
+      {
+        "name": "Tsumetogi",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Hiromi's penthouse table/Hiromi; penthouse locks after leaving."
+      }
     ]
   },
   "S92": {
     "rewards": [
-      { "name": "Judy's Apartment", "method": "quest_reward", "missable": true },
-      { "name": "Mox", "method": "world_pickup", "missable": true, "note": "Judy's kitchen counter 1–2 weeks after S92 on good terms." },
-      { "name": "MaxTac Outfit", "method": "quest_reward", "missable": true, "note": "Wall container in Judy's apartment (Feminine V + Judy romance only)." }
+      {
+        "name": "Judy's Apartment",
+        "method": "quest_reward",
+        "missable": true
+      },
+      {
+        "name": "Mox",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Judy's kitchen counter 1–2 weeks after S92 on good terms."
+      },
+      {
+        "name": "MaxTac Outfit",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Wall container in Judy's apartment (Feminine V + Judy romance only)."
+      }
     ]
   },
   "S94": {
     "rewards": [
-      { "name": "Ol' Reliable", "method": "npc_drop", "missable": true, "note": "Dropped by Dante Caruso if siding with Bree (mutually exclusive with Riskit)." },
-      { "name": "Riskit", "method": "npc_drop", "missable": true, "note": "Dropped by Bree Whitney if siding with Dante (mutually exclusive with Ol' Reliable)." }
+      {
+        "name": "Ol' Reliable",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Dante Caruso if siding with Bree (mutually exclusive with Riskit)."
+      },
+      {
+        "name": "Riskit",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Bree Whitney if siding with Dante (mutually exclusive with Ol' Reliable)."
+      }
     ]
   },
   "S95": {
     "rewards": [
-      { "name": "Dezerter", "method": "world_pickup", "missable": true, "note": "Leon Rinder's stash (requires sparing Rinder in G71)." }
+      {
+        "name": "Dezerter",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Leon Rinder's stash (requires sparing Rinder in G71)."
+      }
     ]
   },
   "S96": {
     "rewards": [
-      { "name": "Ambition", "method": "quest_reward", "missable": true, "note": "Gifted by Hasan (requires sparing Hasan in G74)." }
+      {
+        "name": "Ambition",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Gifted by Hasan (requires sparing Hasan in G74)."
+      }
     ]
   },
   "S101": {
     "rewards": [
-      { "name": "Rook", "method": "world_pickup", "missable": true, "note": "Slider's secret stash (requires downloading Blind_n_Dead in PL09)." }
+      {
+        "name": "Rook",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Slider's secret stash (requires downloading Blind_n_Dead in PL09)."
+      }
     ]
   },
   "S103": {
     "rewards": [
-      { "name": "Erebus", "method": "quest_reward", "missable": true, "note": "Decoded & crafted from PL12 spec (mutually exclusive with Militech Canto Mk.6)." },
-      { "name": "Militech Canto Mk.6", "method": "quest_reward", "missable": true, "note": "Decoded & crafted from PL12 spec (mutually exclusive with Erebus)." }
+      {
+        "name": "Erebus",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Decoded & crafted from PL12 spec (mutually exclusive with Militech Canto Mk.6)."
+      },
+      {
+        "name": "Militech Canto Mk.6",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Decoded & crafted from PL12 spec (mutually exclusive with Erebus)."
+      }
     ]
   },
   "S104": {
     "rewards": [
-      { "name": "Mancinella", "method": "quest_reward", "missable": true, "note": "Given by Mr. Hands at start of quest (requires PL10 Reed path)." },
-      { "name": "Aguilar's Suit", "method": "quest_reward", "missable": true, "note": "3-piece suit provided by Mr. Hands." }
+      {
+        "name": "Mancinella",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "Given by Mr. Hands at start of quest (requires PL10 Reed path)."
+      },
+      {
+        "name": "Aguilar's Suit",
+        "method": "quest_reward",
+        "missable": true,
+        "note": "3-piece suit provided by Mr. Hands."
+      }
     ]
   },
   "S120": {
     "rewards": [
-      { "name": "Coronation", "method": "world_pickup", "missable": true, "note": "Smuggled duffle bag in prison bathroom during infiltration." },
-      { "name": "King's Outfit", "method": "world_pickup", "missable": true, "note": "5-piece set in smuggled duffle bag in prison bathroom." }
+      {
+        "name": "Coronation",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Smuggled duffle bag in prison bathroom during infiltration."
+      },
+      {
+        "name": "King's Outfit",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "5-piece set in smuggled duffle bag in prison bathroom."
+      }
     ]
   },
   "G23": {
     "rewards": [
-      { "name": "Hypercritical", "method": "world_pickup", "missable": true, "note": "Bathroom sink in Tiny Mike's apartment; locks after gig." }
+      {
+        "name": "Hypercritical",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Bathroom sink in Tiny Mike's apartment; locks after gig."
+      }
     ]
   },
   "G63": {
     "rewards": [
-      { "name": "Johnny's Pants", "method": "world_pickup", "missable": true, "note": "Suitcase upstairs in Gaston Slayton's penthouse; locks after gig (not at Black Market)." }
+      {
+        "name": "Johnny's Pants",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase upstairs in Gaston Slayton's penthouse; locks after gig (not at Black Market)."
+      }
     ]
   },
   "G66": {
     "rewards": [
-      { "name": "Johnny's Shoes", "method": "world_pickup", "missable": true, "note": "Wall locker in underground garage; locks after gig." }
+      {
+        "name": "Johnny's Shoes",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Wall locker in underground garage; locks after gig."
+      }
     ]
   },
   "G70": {
     "rewards": [
-      { "name": "Ogou", "method": "npc_drop", "missable": true, "note": "Looted from Robot R MK.2 boss in lower server room." }
+      {
+        "name": "Ogou",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from Robot R MK.2 boss in lower server room."
+      }
     ]
   },
   "G73": {
     "rewards": [
-      { "name": "Pizdets", "method": "npc_drop", "missable": true, "note": "Looted from boss Boris Ribakov in Organitopia." }
+      {
+        "name": "Pizdets",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Looted from boss Boris Ribakov in Organitopia."
+      }
     ]
   },
   "G75": {
     "rewards": [
-      { "name": "Rosco", "method": "npc_drop", "missable": true, "note": "Dropped by Dodger; missed if resolved peacefully via stealth." },
-      { "name": "Volkodav", "method": "world_pickup", "missable": true, "note": "Crate inside abandoned NCPD precinct." }
+      {
+        "name": "Rosco",
+        "method": "npc_drop",
+        "missable": true,
+        "note": "Dropped by Dodger; missed if resolved peacefully via stealth."
+      },
+      {
+        "name": "Volkodav",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Crate inside abandoned NCPD precinct."
+      }
     ]
   },
   "G76": {
     "rewards": [
-      { "name": "Hercules 3AX", "method": "world_pickup", "missable": true, "note": "Nighthawks Rehabilitation Center storage/shooting range room." }
+      {
+        "name": "Hercules 3AX",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Nighthawks Rehabilitation Center storage/shooting range room."
+      }
     ]
   },
   "G77": {
     "rewards": [
-      { "name": "Crimestopper", "method": "world_pickup", "missable": true, "note": "Suitcase in Heavy Hearts VIP Suite." }
+      {
+        "name": "Crimestopper",
+        "method": "world_pickup",
+        "missable": true,
+        "note": "Suitcase in Heavy Hearts VIP Suite."
+      }
     ]
   },
   "IC01": {
     "rewards": [
-      { "name": "Raiju", "method": "world_pickup", "missable": false, "note": "Boss Ross Ulmer's cache." }
+      {
+        "name": "Raiju",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Boss Ross Ulmer's cache."
+      }
     ]
   },
   "IC02": {
     "rewards": [
-      { "name": "Agaou", "method": "npc_drop", "missable": false, "note": "Looted from boss Ayo Zarin." }
+      {
+        "name": "Agaou",
+        "method": "npc_drop",
+        "missable": false,
+        "note": "Looted from boss Ayo Zarin."
+      }
     ]
   },
   "IC03": {
     "rewards": [
-      { "name": "Sparky", "method": "world_pickup", "missable": false, "note": "Final container cache after defeating boss drone." }
+      {
+        "name": "Sparky",
+        "method": "world_pickup",
+        "missable": false,
+        "note": "Final container cache after defeating boss drone."
+      }
     ]
   }
 }
