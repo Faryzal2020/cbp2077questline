@@ -55,6 +55,19 @@ const CATEGORIES: CategoryGroup[] = [
   { key: 'ic', label: 'Dogtown IC', types: ['IC'], defaultOn: false },
 ];
 
+function isPhantomLibertyQuest(q: QuestNodeData): boolean {
+  return (
+    q.type === 'PL' ||
+    q.type === 'PLE' ||
+    q.arc === 'Phantom Liberty' ||
+    q.arc === 'Side (Phantom Liberty)' ||
+    q.arc === 'Gigs (Dogtown)' ||
+    q.arc === 'Dogtown IC' ||
+    q.parallelGroup === 'Tomorrow Never Knows' ||
+    Boolean(q.journalPath?.startsWith('ep1/'))
+  );
+}
+
 const DEFAULT_CAT_KEYS = CATEGORIES.filter((c) => c.defaultOn).map((c) => c.key);
 
 function QuestGraphApp() {
@@ -145,7 +158,9 @@ function QuestGraphApp() {
   const filteredQuests = useMemo(() => {
     if (!payload) return [];
     const term = search.trim().toLowerCase();
+    const plEnabled = activeCats.has('pl');
     return payload.nodes.filter((q) => {
+      if (!plEnabled && isPhantomLibertyQuest(q)) return false;
       if (!activeTypes.has(q.type)) return false;
       if (onlyWithIconics && q.rewards.length === 0) return false;
       if (term) {
@@ -157,28 +172,28 @@ function QuestGraphApp() {
       }
       return true;
     });
-  }, [payload, activeTypes, onlyWithIconics, search]);
+}, [payload, activeCats, activeTypes, onlyWithIconics, search]);
 
-  useEffect(() => {
-    if (!payload) return;
-    let cancelled = false;
-    setLayouting(true);
-    layoutQuestGraph(
-      filteredQuests,
-      payload.edges,
-      allQuestsMap,
-      doneQuests,
-      doneIconics,
-      toggleQuestDone,
-    ).then(({ nodes, edges }) => {
-      if (cancelled) return;
-      setBaseNodes(nodes);
-      setBaseEdges(edges);
-      setLayouting(false);
-    });
-    return () => {
-      cancelled = true;
-    };
+useEffect(() => {
+  if (!payload) return;
+  let cancelled = false;
+  setLayouting(true);
+  layoutQuestGraph(
+    filteredQuests,
+    payload.edges,
+    allQuestsMap,
+    doneQuests,
+    doneIconics,
+    toggleQuestDone,
+  ).then(({ nodes, edges }) => {
+    if (cancelled) return;
+    setBaseNodes(nodes);
+    setBaseEdges(edges);
+    setLayouting(false);
+  });
+  return () => {
+    cancelled = true;
+  };
 }, [payload, filteredQuests, allQuestsMap, doneQuests, doneIconics, toggleQuestDone]);
 
 const { nodes: flowNodes, edges: flowEdges } = useMemo(
